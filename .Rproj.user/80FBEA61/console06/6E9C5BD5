@@ -144,3 +144,77 @@ Changes not staged for commit:
 	[31mmodified:   .Rproj.user/80FBEA61/console06/6E9C5BD5[m
 
 ]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git add -[K.
+]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git add .status[1Padd .nano .gitignorels[Kgit push -u origin masterremote add origin git@github.com:ian-flores/PR_Elections_Historical_Data.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[38Pcommit -m "Uploading all scraped data"add .[Kcommit -m "Uploading all scraped data"
+[master 5ef702f] Uploading all scraped data
+ 3 files changed, 144 insertions(+), 3 deletions(-)
+ create mode 100644 .gitignore
+]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git commit -m "Uploading all scraped data"add .[Kstatus[1Padd .nano .gitignorels[Kgit push -u origin master
+Warning: Permanently added the RSA host key for IP address '192.30.255.112' to the list of known hosts.
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 3.50 KiB | 1.17 MiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:ian-flores/PR_Elections_Historical_Data.git
+   94266b3..5ef702f  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ ls
+data  pr_elections_data.Rproj  src
+]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ cd [K[K[Kls -la
+total 36
+drwxrwxr-x  7 kropotkin kropotkin 4096 Nov  2 14:37 .
+drwxr-xr-x 20 kropotkin kropotkin 4096 Oct 31 22:06 ..
+drwxrwxr-x  5 kropotkin kropotkin 4096 Nov  2 14:02 data
+drwxrwxr-x  8 kropotkin kropotkin 4096 Nov  2 14:37 .git
+-rw-rw-r--  1 kropotkin kropotkin   40 Nov  2 14:37 .gitignore
+drwxrwxr-x  2 kropotkin kropotkin 4096 Oct 31 22:07 .ipynb_checkpoints
+-rw-rw-r--  1 kropotkin kropotkin  205 Nov  2 13:12 pr_elections_data.Rproj
+drwxrwxr-x  4 kropotkin kropotkin 4096 Oct 31 22:53 .Rproj.user
+drwxrwxr-x  4 kropotkin kropotkin 4096 Oct 31 23:25 src
+]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ rm -rf .ipynb_checkpoints/
+]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ cd src
+]0;/home/kropotkin/Documents/gh/pr_elections_data/srckropotkin@kronstadt:~/Documents/gh/pr_elections_data/src$ ls -la
+total 16
+drwxrwxr-x 4 kropotkin kropotkin 4096 Oct 31 23:25 .
+drwxrwxr-x 6 kropotkin kropotkin 4096 Nov  2 14:38 ..
+drwxrwxr-x 2 kropotkin kropotkin 4096 Nov  2 14:30 clean_data
+drwxrwxr-x 3 kropotkin kropotkin 4096 Nov  2 14:30 get_data
+]0;/home/kropotkin/Documents/gh/pr_elections_data/srckropotkin@kronstadt:~/Documents/gh/pr_elections_data/src$ cd c[Kget_data/
+]0;/home/kropotkin/Documents/gh/pr_elections_data/src/get_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/src/get_data$ ls -la
+total 16
+drwxrwxr-x 3 kropotkin kropotkin 4096 Nov  2 14:30 .
+drwxrwxr-x 4 kropotkin kropotkin 4096 Oct 31 23:25 ..
+-rw-rw-r-- 1 kropotkin kropotkin 3796 Nov  1 10:24 get_historic_data.py
+drwxrwxr-x 2 kropotkin kropotkin 4096 Nov  2 13:14 .ipynb_checkpoints
+]0;/home/kropotkin/Documents/gh/pr_elections_data/src/get_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/src/get_data$ rm .ipynb_checkpoints/
+rm: cannot remove '.ipynb_checkpoints/': Is a directory
+]0;/home/kropotkin/Documents/gh/pr_elections_data/src/get_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/src/get_data$ rm .ipynb_checkpoints/ls -la[Kcd get_data/[6Pls -lacd srcrm -rf .ipynb_checkpoints/
+]0;/home/kropotkin/Documents/gh/pr_elections_data/src/get_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/src/get_data$ ls -a[Kla
+total 12
+drwxrwxr-x 2 kropotkin kropotkin 4096 Nov  2 14:38 .
+drwxrwxr-x 4 kropotkin kropotkin 4096 Oct 31 23:25 ..
+-rw-rw-r-- 1 kropotkin kropotkin 3796 Nov  1 10:24 get_historic_data.py
+]0;/home/kropotkin/Documents/gh/pr_elections_data/src/get_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/src/get_data$ cd ..
+]0;/home/kropotkin/Documents/gh/pr_elections_data/srckropotkin@kronstadt:~/Documents/gh/pr_elections_data/src$ cd clean_data/
+]0;/home/kropotkin/Documents/gh/pr_elections_data/src/clean_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/src/clean_data$ ls -la
+total 12
+drwxrwxr-x 2 kropotkin kropotkin 4096 Nov  2 14:30 .
+drwxrwxr-x 4 kropotkin kropotkin 4096 Oct 31 23:25 ..
+-rw-rw-r-- 1 kropotkin kropotkin 1440 Nov  2 14:28 clean_data.R
+]0;/home/kropotkin/Documents/gh/pr_elections_data/src/clean_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/src/clean_data$ cd ../../..
+]0;/home/kropotkin/Documents/ghkropotkin@kronstadt:~/Documents/gh$ cd pr_elections_data/
+]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ ls
+data  pr_elections_data.Rproj  src
+]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ c[Kcd data/
+elecciones_generales/ .ipynb_checkpoints/   temporary_data/       
+kropotkin@kronstadt:~/Documents/gh/pr_elections_data$ cd data/
+]0;/home/kropotkin/Documents/gh/pr_elections_data/datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/data$ rm -rf .ipynb_checkpoints/
+]0;/home/kropotkin/Documents/gh/pr_elections_data/datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/data$ l[Kls -la
+total 16
+drwxrwxr-x 4 kropotkin kropotkin 4096 Nov  2 14:39 .
+drwxrwxr-x 6 kropotkin kropotkin 4096 Nov  2 14:38 ..
+drwxrwxr-x 6 kropotkin kropotkin 4096 Nov  2 14:27 elecciones_generales
+drwxrwxr-x 6 kropotkin kropotkin 4096 Nov  1 06:58 temporary_data
+]0;/home/kropotkin/Documents/gh/pr_elections_data/datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/data$ cd ..
+]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git add .
