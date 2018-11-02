@@ -1,7 +1,0 @@
-library(tidyverse)
-square <- function(x) x^2
-cube <- function(x) x^3
-tibble(x=c(-3,3)) %>% 
-    ggplot(aes(x)) +
-    stat_function(fun=square, mapping=aes(colour="square")) +
-    stat_function(fun=cube, mapping=aes(colour="cube"))

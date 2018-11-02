@@ -1,220 +1,13 @@
-python get_historic_data.py 
-]0;/home/kropotkin/Documents/gh/pr_elections_data/src/get_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/src/get_data$ cd ../..
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ ls
-data  pr_elections_data.Rproj  src
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ s[Kgit init
-Initialized empty Git repository in /home/kropotkin/Documents/gh/pr_elections_data/.git/
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git add .
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git commit -m "Uploading all scraped data"
-[master (root-commit) 94266b3] Uploading all scraped data
- 98 files changed, 71661 insertions(+)
- create mode 100644 .Rproj.user/80FBEA61/console06/6E9C5BD5
- create mode 100644 .Rproj.user/80FBEA61/console06/6E9C5BD5.env
- create mode 100644 .Rproj.user/80FBEA61/console06/INDEX001
- create mode 100644 .Rproj.user/80FBEA61/pcs/source-pane.pper
- create mode 100644 .Rproj.user/80FBEA61/pcs/windowlayoutstate.pper
- create mode 100644 .Rproj.user/80FBEA61/pcs/workbench-pane.pper
- create mode 100644 .Rproj.user/80FBEA61/rmd-outputs
- create mode 100644 .Rproj.user/80FBEA61/saved_source_markers
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/101C7EDA
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/139E9112
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/2764F695
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/48863122
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/57CEE80C
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/592FD8AA
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/594F92A6
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/5D90DEB2
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/6943031F
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/6EA90DEB
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/6FE4C9EE
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/9233A4EC
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/A64966B3
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/BD218E7F
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/BD69C0DB
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/C2BC9B16
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/D122F909
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/E090E939
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/F06BF178
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/F366EAEE
- create mode 100644 .Rproj.user/80FBEA61/sources/prop/INDEX
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/191A349C-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/351FF597-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/3F502A12-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/4258EF10
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/4258EF10-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/464A89A4-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/4657C9FC
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/4657C9FC-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/4A013593-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/4E627950-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/53DE7FCC-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/64DC2A9E-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/6A02E545-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/763E58E5-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/7CA8CF49-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/82A88D6D-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/8EE3BB2C-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/94887E4B
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/94887E4B-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/A0C2E979-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/A2C81A0A-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/A4CDA22E-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/A82C3A0D-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/B005C417-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/B7054481-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/BFEFED01-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/C5D9E715-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/DA12845B-contents
- create mode 100644 .Rproj.user/80FBEA61/sources/s-A30DEF62/lock_file
- create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
- create mode 100644 .Rproj.user/shared/notebooks/paths
- create mode 100644 .ipynb_checkpoints/Untitled-checkpoint.ipynb
- create mode 100644 data/elecciones_generales/alcalde/alcalde.csv
- create mode 100644 data/elecciones_generales/comisionado_residente/comisionado_residente.csv
- create mode 100644 data/elecciones_generales/gobernador/gobernador.csv
- create mode 100644 data/temporary_data/alcalde/data_1976.csv
- create mode 100644 data/temporary_data/alcalde/data_1980.csv
- create mode 100644 data/temporary_data/alcalde/data_1984.csv
- create mode 100644 data/temporary_data/alcalde/data_1992.csv
- create mode 100644 data/temporary_data/alcalde/data_1996.csv
- create mode 100644 data/temporary_data/alcalde/data_2000.csv
- create mode 100644 data/temporary_data/comisionado_residente/data_1932.csv
- create mode 100644 data/temporary_data/comisionado_residente/data_1936.csv
- create mode 100644 data/temporary_data/comisionado_residente/data_1940.csv
- create mode 100644 data/temporary_data/comisionado_residente/data_1944.csv
- create mode 100644 data/temporary_data/comisionado_residente/data_1980.csv
- create mode 100644 data/temporary_data/comisionado_residente/data_1984.csv
- create mode 100644 data/temporary_data/comisionado_residente/data_1988.csv
- create mode 100644 data/temporary_data/comisionado_residente/data_1992.csv
- create mode 100644 data/temporary_data/comisionado_residente/data_1996.csv
- create mode 100644 data/temporary_data/comisionado_residente/data_2000.csv
- create mode 100644 data/temporary_data/gobernador/data_1948.csv
- create mode 100644 data/temporary_data/gobernador/data_1952.csv
- create mode 100644 data/temporary_data/gobernador/data_1956.csv
- create mode 100644 data/temporary_data/gobernador/data_1960.csv
- create mode 100644 data/temporary_data/gobernador/data_1964.csv
- create mode 100644 data/temporary_data/gobernador/data_1968.csv
- create mode 100644 data/temporary_data/gobernador/data_1972.csv
- create mode 100644 data/temporary_data/gobernador/data_1976.csv
- create mode 100644 data/temporary_data/gobernador/data_1980.csv
- create mode 100644 data/temporary_data/gobernador/data_1984.csv
- create mode 100644 data/temporary_data/gobernador/data_1988.csv
- create mode 100644 data/temporary_data/gobernador/data_1992.csv
- create mode 100644 data/temporary_data/gobernador/data_1996.csv
- create mode 100644 data/temporary_data/gobernador/data_2000.csv
- create mode 100644 pr_elections_data.Rproj
- create mode 100644 src/clean_data/clean_data.R
- create mode 100644 src/get_data/.ipynb_checkpoints/Untitled-checkpoint.ipynb
- create mode 100644 src/get_data/get_historic_data.py
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git pu[K[Kremor[Kte add -- [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit remote add origin git@github.com:ian-flores/PR_Elections_Historical_Data.git
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git push -u origin master
-Warning: Permanently added the RSA host key for IP address '192.30.255.113' to the list of known hosts.
-Counting objects: 99, done.
-Delta compression using up to 8 threads.
-Compressing objects:   1% (1/90)   Compressing objects:   2% (2/90)   Compressing objects:   3% (3/90)   Compressing objects:   4% (4/90)   Compressing objects:   5% (5/90)   Compressing objects:   6% (6/90)   Compressing objects:   7% (7/90)   Compressing objects:   8% (8/90)   Compressing objects:  10% (9/90)   Compressing objects:  11% (10/90)   Compressing objects:  12% (11/90)   Compressing objects:  13% (12/90)   Compressing objects:  14% (13/90)   Compressing objects:  15% (14/90)   Compressing objects:  16% (15/90)   Compressing objects:  17% (16/90)   Compressing objects:  18% (17/90)   Compressing objects:  20% (18/90)   Compressing objects:  21% (19/90)   Compressing objects:  22% (20/90)   Compressing objects:  23% (21/90)   Compressing objects:  24% (22/90)   Compressing objects:  25% (23/90)   Compressing objects:  26% (24/90)   Compressing objects:  27% (25/90)   Compressing objects:  28% (26/90)   Compressing objects:  30% (27/90)   Compressing objects:  31% (28/90)   Compressing objects:  32% (29/90)   Compressing objects:  33% (30/90)   Compressing objects:  34% (31/90)   Compressing objects:  35% (32/90)   Compressing objects:  36% (33/90)   Compressing objects:  37% (34/90)   Compressing objects:  38% (35/90)   Compressing objects:  40% (36/90)   Compressing objects:  41% (37/90)   Compressing objects:  42% (38/90)   Compressing objects:  43% (39/90)   Compressing objects:  44% (40/90)   Compressing objects:  45% (41/90)   Compressing objects:  46% (42/90)   Compressing objects:  47% (43/90)   Compressing objects:  48% (44/90)   Compressing objects:  50% (45/90)   Compressing objects:  51% (46/90)   Compressing objects:  52% (47/90)   Compressing objects:  53% (48/90)   Compressing objects:  54% (49/90)   Compressing objects:  55% (50/90)   Compressing objects:  56% (51/90)   Compressing objects:  57% (52/90)   Compressing objects:  58% (53/90)   Compressing objects:  60% (54/90)   Compressing objects:  61% (55/90)   Compressing objects:  62% (56/90)   Compressing objects:  63% (57/90)   Compressing objects:  64% (58/90)   Compressing objects:  65% (59/90)   Compressing objects:  66% (60/90)   Compressing objects:  67% (61/90)   Compressing objects:  68% (62/90)   Compressing objects:  70% (63/90)   Compressing objects:  71% (64/90)   Compressing objects:  72% (65/90)   Compressing objects:  73% (66/90)   Compressing objects:  74% (67/90)   Compressing objects:  75% (68/90)   Compressing objects:  76% (69/90)   Compressing objects:  77% (70/90)   Compressing objects:  78% (71/90)   Compressing objects:  80% (72/90)   Compressing objects:  81% (73/90)   Compressing objects:  82% (74/90)   Compressing objects:  83% (75/90)   Compressing objects:  84% (76/90)   Compressing objects:  85% (77/90)   Compressing objects:  86% (78/90)   Compressing objects:  87% (79/90)   Compressing objects:  88% (80/90)   Compressing objects:  90% (81/90)   Compressing objects:  91% (82/90)   Compressing objects:  92% (83/90)   Compressing objects:  93% (84/90)   Compressing objects:  94% (85/90)   Compressing objects:  95% (86/90)   Compressing objects:  96% (87/90)   Compressing objects:  97% (88/90)   Compressing objects:  98% (89/90)   Compressing objects: 100% (90/90)   Compressing objects: 100% (90/90), done.
-Writing objects:   1% (1/99)   Writing objects:   2% (2/99)   Writing objects:   3% (3/99)   Writing objects:   4% (4/99)   Writing objects:   5% (5/99)   Writing objects:   6% (6/99)   Writing objects:   7% (7/99)   Writing objects:   8% (8/99)   Writing objects:   9% (9/99)   Writing objects:  10% (10/99)   Writing objects:  11% (11/99)   Writing objects:  12% (12/99)   Writing objects:  13% (13/99)   Writing objects:  14% (14/99)   Writing objects:  15% (15/99)   Writing objects:  16% (16/99)   Writing objects:  17% (17/99)   Writing objects:  18% (18/99)   Writing objects:  19% (19/99)   Writing objects:  21% (21/99)   Writing objects:  22% (22/99)   Writing objects:  23% (23/99)   Writing objects:  24% (24/99)   Writing objects:  25% (25/99)   Writing objects:  26% (26/99)   Writing objects:  27% (27/99)   Writing objects:  28% (28/99)   Writing objects:  29% (29/99)   Writing objects:  30% (30/99)   Writing objects:  31% (31/99)   Writing objects:  32% (32/99)   Writing objects:  33% (33/99)   Writing objects:  34% (34/99)   Writing objects:  35% (35/99)   Writing objects:  37% (37/99)   Writing objects:  38% (38/99)   Writing objects:  39% (39/99)   Writing objects:  41% (41/99)   Writing objects:  42% (42/99)   Writing objects:  43% (43/99)   Writing objects:  44% (44/99)   Writing objects:  45% (45/99)   Writing objects:  46% (46/99)   Writing objects:  47% (47/99)   Writing objects:  48% (48/99)   Writing objects:  49% (49/99)   Writing objects:  50% (50/99)   Writing objects:  51% (51/99)   Writing objects:  52% (52/99)   Writing objects:  53% (53/99)   Writing objects:  54% (54/99)   Writing objects:  55% (55/99)   Writing objects:  56% (56/99)   Writing objects:  57% (57/99)   Writing objects:  58% (58/99)   Writing objects:  59% (59/99)   Writing objects:  60% (60/99)   Writing objects:  61% (61/99)   Writing objects:  62% (62/99)   Writing objects:  63% (63/99)   Writing objects:  64% (64/99)   Writing objects:  65% (65/99)   Writing objects:  66% (66/99)   Writing objects:  67% (67/99)   Writing objects:  68% (68/99)   Writing objects:  69% (69/99)   Writing objects:  70% (70/99)   Writing objects:  71% (71/99)   Writing objects:  72% (72/99)   Writing objects:  73% (73/99)   Writing objects:  74% (74/99)   Writing objects:  75% (75/99)   Writing objects:  76% (76/99)   Writing objects:  77% (77/99)   Writing objects:  78% (78/99)   Writing objects:  79% (79/99)   Writing objects:  80% (80/99)   Writing objects:  81% (81/99)   Writing objects:  82% (82/99)   Writing objects:  83% (83/99)   Writing objects:  84% (84/99)   Writing objects:  85% (85/99)   Writing objects:  86% (86/99)   Writing objects:  87% (87/99)   Writing objects:  88% (88/99)   Writing objects:  89% (89/99)   Writing objects:  90% (90/99)   Writing objects:  91% (91/99)   Writing objects:  92% (92/99)   Writing objects:  93% (93/99)   Writing objects:  94% (94/99)   Writing objects:  95% (95/99)   Writing objects:  96% (96/99)   Writing objects:  97% (97/99)   Writing objects:  98% (98/99)   Writing objects: 100% (99/99)   Writing objects: 100% (99/99), 285.55 KiB | 4.53 MiB/s, done.
-Total 99 (delta 4), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), done.[K
-remote: 
-remote: Create a pull request for 'master' on GitHub by visiting:[K
-remote:      https://github.com/ian-flores/PR_Elections_Historical_Data/pull/new/master[K
-remote: 
-To github.com:ian-flores/PR_Elections_Historical_Data.git
- * [new branch]      master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ ls
-data  pr_elections_data.Rproj  src
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ nano .gitignore
-[23;0;0t[?1l>]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git add .
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git stati[Kus
-On branch master
-Your branch is up to date with 'origin/master'.
 
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	[32mmodified:   .Rproj.user/80FBEA61/console06/6E9C5BD5[m
-	[32mmodified:   .Rproj.user/80FBEA61/console06/6E9C5BD5.env[m
-	[32mnew file:   .gitignore[m
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/80FBEA61/console06/6E9C5BD5[m
-
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git add -[K.
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git add .status[1Padd .nano .gitignorels[Kgit push -u origin masterremote add origin git@github.com:ian-flores/PR_Elections_Historical_Data.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[38Pcommit -m "Uploading all scraped data"add .[Kcommit -m "Uploading all scraped data"
-[master 5ef702f] Uploading all scraped data
- 3 files changed, 144 insertions(+), 3 deletions(-)
- create mode 100644 .gitignore
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git commit -m "Uploading all scraped data"add .[Kstatus[1Padd .nano .gitignorels[Kgit push -u origin master
-Warning: Permanently added the RSA host key for IP address '192.30.255.112' to the list of known hosts.
-Counting objects: 8, done.
-Delta compression using up to 8 threads.
-Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
-Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 3.50 KiB | 1.17 MiB/s, done.
-Total 8 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:ian-flores/PR_Elections_Historical_Data.git
-   94266b3..5ef702f  master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ ls
-data  pr_elections_data.Rproj  src
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ cd [K[K[Kls -la
-total 36
-drwxrwxr-x  7 kropotkin kropotkin 4096 Nov  2 14:37 .
+]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ ls p-[K[K-la
+total 32
+drwxrwxr-x  6 kropotkin kropotkin 4096 Nov  2 14:41 .
 drwxr-xr-x 20 kropotkin kropotkin 4096 Oct 31 22:06 ..
-drwxrwxr-x  5 kropotkin kropotkin 4096 Nov  2 14:02 data
-drwxrwxr-x  8 kropotkin kropotkin 4096 Nov  2 14:37 .git
+drwxrwxr-x  4 kropotkin kropotkin 4096 Nov  2 14:39 data
+drwxrwxr-x  8 kropotkin kropotkin 4096 Nov  2 14:40 .git
 -rw-rw-r--  1 kropotkin kropotkin   40 Nov  2 14:37 .gitignore
-drwxrwxr-x  2 kropotkin kropotkin 4096 Oct 31 22:07 .ipynb_checkpoints
 -rw-rw-r--  1 kropotkin kropotkin  205 Nov  2 13:12 pr_elections_data.Rproj
-drwxrwxr-x  4 kropotkin kropotkin 4096 Oct 31 22:53 .Rproj.user
+drwxrwxr-x  3 kropotkin kropotkin 4096 Nov  2 14:41 .Rproj.user
 drwxrwxr-x  4 kropotkin kropotkin 4096 Oct 31 23:25 src
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ rm -rf .ipynb_checkpoints/
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ cd src
-]0;/home/kropotkin/Documents/gh/pr_elections_data/srckropotkin@kronstadt:~/Documents/gh/pr_elections_data/src$ ls -la
-total 16
-drwxrwxr-x 4 kropotkin kropotkin 4096 Oct 31 23:25 .
-drwxrwxr-x 6 kropotkin kropotkin 4096 Nov  2 14:38 ..
-drwxrwxr-x 2 kropotkin kropotkin 4096 Nov  2 14:30 clean_data
-drwxrwxr-x 3 kropotkin kropotkin 4096 Nov  2 14:30 get_data
-]0;/home/kropotkin/Documents/gh/pr_elections_data/srckropotkin@kronstadt:~/Documents/gh/pr_elections_data/src$ cd c[Kget_data/
-]0;/home/kropotkin/Documents/gh/pr_elections_data/src/get_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/src/get_data$ ls -la
-total 16
-drwxrwxr-x 3 kropotkin kropotkin 4096 Nov  2 14:30 .
-drwxrwxr-x 4 kropotkin kropotkin 4096 Oct 31 23:25 ..
--rw-rw-r-- 1 kropotkin kropotkin 3796 Nov  1 10:24 get_historic_data.py
-drwxrwxr-x 2 kropotkin kropotkin 4096 Nov  2 13:14 .ipynb_checkpoints
-]0;/home/kropotkin/Documents/gh/pr_elections_data/src/get_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/src/get_data$ rm .ipynb_checkpoints/
-rm: cannot remove '.ipynb_checkpoints/': Is a directory
-]0;/home/kropotkin/Documents/gh/pr_elections_data/src/get_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/src/get_data$ rm .ipynb_checkpoints/ls -la[Kcd get_data/[6Pls -lacd srcrm -rf .ipynb_checkpoints/
-]0;/home/kropotkin/Documents/gh/pr_elections_data/src/get_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/src/get_data$ ls -a[Kla
-total 12
-drwxrwxr-x 2 kropotkin kropotkin 4096 Nov  2 14:38 .
-drwxrwxr-x 4 kropotkin kropotkin 4096 Oct 31 23:25 ..
--rw-rw-r-- 1 kropotkin kropotkin 3796 Nov  1 10:24 get_historic_data.py
-]0;/home/kropotkin/Documents/gh/pr_elections_data/src/get_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/src/get_data$ cd ..
-]0;/home/kropotkin/Documents/gh/pr_elections_data/srckropotkin@kronstadt:~/Documents/gh/pr_elections_data/src$ cd clean_data/
-]0;/home/kropotkin/Documents/gh/pr_elections_data/src/clean_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/src/clean_data$ ls -la
-total 12
-drwxrwxr-x 2 kropotkin kropotkin 4096 Nov  2 14:30 .
-drwxrwxr-x 4 kropotkin kropotkin 4096 Oct 31 23:25 ..
--rw-rw-r-- 1 kropotkin kropotkin 1440 Nov  2 14:28 clean_data.R
-]0;/home/kropotkin/Documents/gh/pr_elections_data/src/clean_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/src/clean_data$ cd ../../..
-]0;/home/kropotkin/Documents/ghkropotkin@kronstadt:~/Documents/gh$ cd pr_elections_data/
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ ls
-data  pr_elections_data.Rproj  src
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ c[Kcd data/
-elecciones_generales/ .ipynb_checkpoints/   temporary_data/       
-kropotkin@kronstadt:~/Documents/gh/pr_elections_data$ cd data/
-]0;/home/kropotkin/Documents/gh/pr_elections_data/datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/data$ rm -rf .ipynb_checkpoints/
-]0;/home/kropotkin/Documents/gh/pr_elections_data/datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/data$ l[Kls -la
-total 16
-drwxrwxr-x 4 kropotkin kropotkin 4096 Nov  2 14:39 .
-drwxrwxr-x 6 kropotkin kropotkin 4096 Nov  2 14:38 ..
-drwxrwxr-x 6 kropotkin kropotkin 4096 Nov  2 14:27 elecciones_generales
-drwxrwxr-x 6 kropotkin kropotkin 4096 Nov  1 06:58 temporary_data
-]0;/home/kropotkin/Documents/gh/pr_elections_data/datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/data$ cd ..
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git add .
+]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ gti[K[K[Kcd .git/[Kig[K[K/[K[K[K[K[K[K[K[Kan[K[Knanao[K[Ko .gitignore 
+[23;0;0t[?1l>]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git add .
