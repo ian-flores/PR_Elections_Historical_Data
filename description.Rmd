@@ -1,0 +1,39 @@
+---
+title: "Puerto Rico Elections Historical Data"
+author: "Ian Flores Siaca"
+date: "November 2, 2018"
+output: html_document
+---
+
+```{r setup, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(DT)
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+**Data Available**:
+
+- Governor *(1948 - 2000)*
+- Resident Commissioner *(1932 - 1944) & (1980 - 2000)*
+- Mayors *(1976 - 2000)*
+
+### Governor Data Available
+
+```{r, include = TRUE}
+data <- read_csv('data/elecciones_generales/gobernador/gobernador.csv')
+datatable(data = data, extensions = 'Buttons', options = list(dom = 'Btp', buttons = c('csv', 'excel', 'pdf')), filter = 'top', rownames = FALSE, class = 'hover row-border', colnames = c('Municipality', 'Year', 'Political Party', 'votes'))
+```
+
+### Resident Commissioner Data Available
+
+```{r, include = TRUE}
+data <- read_csv('data/elecciones_generales/comisionado_residente/comisionado_residente.csv')
+datatable(data = data, extensions = 'Buttons', options = list(dom = 'Btp', buttons = c('csv', 'excel', 'pdf')), filter = 'top', rownames = FALSE, class = 'hover row-border', colnames = c('Municipality', 'Year', 'Political Party', 'votes'))
+```
+
+### Mayors Data Available
+
+```{r, include = TRUE}
+data <- read_csv('data/elecciones_generales/alcalde/alcalde.csv')
+datatable(data = data, extensions = 'Buttons', options = list(dom = 'Btp', buttons = c('csv', 'excel', 'pdf')), filter = 'top', rownames = FALSE, class = 'hover row-border', colnames = c('Municipality', 'Year', 'Political Party', 'votes'))
+```
