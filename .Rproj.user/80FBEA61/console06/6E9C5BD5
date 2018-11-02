@@ -1,13 +1,0 @@
-
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ ls p-[K[K-la
-total 32
-drwxrwxr-x  6 kropotkin kropotkin 4096 Nov  2 14:41 .
-drwxr-xr-x 20 kropotkin kropotkin 4096 Oct 31 22:06 ..
-drwxrwxr-x  4 kropotkin kropotkin 4096 Nov  2 14:39 data
-drwxrwxr-x  8 kropotkin kropotkin 4096 Nov  2 14:40 .git
--rw-rw-r--  1 kropotkin kropotkin   40 Nov  2 14:37 .gitignore
--rw-rw-r--  1 kropotkin kropotkin  205 Nov  2 13:12 pr_elections_data.Rproj
-drwxrwxr-x  3 kropotkin kropotkin 4096 Nov  2 14:41 .Rproj.user
-drwxrwxr-x  4 kropotkin kropotkin 4096 Oct 31 23:25 src
-]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ gti[K[K[Kcd .git/[Kig[K[K/[K[K[K[K[K[K[K[Kan[K[Knanao[K[Ko .gitignore 
-[23;0;0t[?1l>]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git add .
