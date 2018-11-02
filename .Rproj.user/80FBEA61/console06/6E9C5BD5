@@ -1,0 +1,7 @@
+python get_historic_data.py 
+]0;/home/kropotkin/Documents/gh/pr_elections_data/src/get_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data/src/get_data$ cd ../..
+]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ ls
+data  pr_elections_data.Rproj  src
+]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ s[Kgit init
+Initialized empty Git repository in /home/kropotkin/Documents/gh/pr_elections_data/.git/
+]0;/home/kropotkin/Documents/gh/pr_elections_datakropotkin@kronstadt:~/Documents/gh/pr_elections_data$ git add .

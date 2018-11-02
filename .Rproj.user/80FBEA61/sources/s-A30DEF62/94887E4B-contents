@@ -1,0 +1,37 @@
+library(tidyverse)
+library(readxl)
+
+data_2004 <- read_excel('src/get_data/Resultados2004.xlsx')
+
+data_2004 %>%
+    select(Precinto, Unidad, Colegio, contains("ALCALDE")) ->
+    alcaldes_2004
+
+alcaldes_2004 %>%
+    gather(partido, votos, -Precinto, -Unidad, -Colegio) %>%
+    mutate(partido = str_remove(partido, "ALCALDE ")) ->
+    alcaldes_2004
+
+alcaldes_2004 %>%
+    mutate(Precinto = as.numeric(Precinto)) %>%
+    group_by(Precinto, partido) %>%
+    summarize(votos = sum(votos)) ->
+    alcaldes_2004
+
+
+#alcaldes_2004[which(alcaldes_2004$Precinto < 5 & alcaldes_2004[['Precinto']] > 1),]$Precinto = 'San Juan'
+#alcaldes_2004
+
+precint_cleaner <- function(.data, .less, .bigg, .subs){
+    .data[which(.data[['Precinto']] < .less, .data[['Precinto']] > .bigg),][['Precinto']] <- .subs
+    return(.data)
+}
+
+alcaldes_2004 %>%
+    precint_cleaner(5, 0, 'San Juan') %>%
+    precint_cleaner(8, 5, 'Guaynabo') %>%
+    precint_cleaner(9, 7, 'Cataño') %>%
+    precint_cleaner(13, 8, 'Bayamón') %>%
+    precint_cleaner(14, 12, 'Toa Alta') %>%
+    precint_cleaner(15, 13, 'Toa Baja') %>%
+    precint_cleaner()

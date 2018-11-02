@@ -1,0 +1,34 @@
+import numpy as np
+import pandas as pd
+import urllib.request
+from bs4 import BeautifulSoup
+
+response = urllib.request.urlopen('http://209.68.12.238/cgi-bin/eventos.pl?evento=1932&voto=c')
+webpage = response.read()
+soup = BeautifulSoup(webpage, 'html.parser')
+
+table = soup.find_all('table')[5]
+table_rows = table.find_all('tr')
+tr = table_rows[0]
+td = tr.find_all('td')
+row = [tr.text for tr in td]
+
+np_1932 = np.array(row)
+np_1932.shape = (78, 14)
+
+df_1932 = pd.DataFrame(np_1932, columns = ["municipios", 
+                                 "votos_union_republicana",
+                                "pct_union_republicana", 
+                                "votos_partido_socialista",
+                                "pct_partido_socialista",
+                                "votos_republicana_socialista",
+                                "pct_republicana_socialista",
+                                "votos_partido_liberal",
+                                "pct_partido_liberal",
+                                "votos_partido_nacionalista",
+                                "pct_partido_nacionalista",
+                                "votos_independientes",
+                                "pct_independientes",
+                                "total"])
+
+df_1932.to_csv('data/1932/python_df_1932.csv')

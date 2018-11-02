@@ -1,0 +1,4 @@
+lintr::lint_package("parse_text.R")
+library(lintr)
+
+lint("parse_text.R")

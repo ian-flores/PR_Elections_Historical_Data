@@ -1,0 +1,161 @@
+import numpy as np
+import pandas as pd
+import urllib.request
+from bs4 import BeautifulSoup
+
+##### 1932
+response = urllib.request.urlopen('http://209.68.12.238/cgi-bin/eventos.pl?evento=1932&voto=c')
+webpage = response.read()
+soup = BeautifulSoup(webpage, 'html.parser')
+
+table = soup.find_all('table')[5]
+table_rows = table.find_all('tr')
+tr = table_rows[0]
+td = tr.find_all('td')
+row = [tr.text for tr in td]
+
+np_1932 = np.array(row)
+np_1932.shape = (78, 14)
+
+df_1932 = pd.DataFrame(np_1932, columns = ["municipios", 
+                                 "votos_union_republicana",
+                                "pct_union_republicana", 
+                                "votos_partido_socialista",
+                                "pct_partido_socialista",
+                                "votos_republicana_socialista",
+                                "pct_republicana_socialista",
+                                "votos_partido_liberal",
+                                "pct_partido_liberal",
+                                "votos_partido_nacionalista",
+                                "pct_partido_nacionalista",
+                                "votos_independientes",
+                                "pct_independientes",
+                                "total"])
+
+df_1932.to_csv('../../data/temporary_data/comisionado_residente/data_1932.csv')
+
+
+
+##### 1936
+response = urllib.request.urlopen('http://209.68.12.238/cgi-bin/eventos.pl?evento=1936&voto=c')
+webpage = response.read()
+soup = BeautifulSoup(webpage, 'html.parser')
+
+table = soup.find_all('table')[5]
+table_rows = table.find_all('tr')
+tr = table_rows[0]
+td = tr.find_all('td')
+row = [tr.text for tr in td]
+
+np_1936 = np.array(row)
+np_1936.shape = (78, 10)
+
+df_1936 = pd.DataFrame(np_1936, columns = ["municipios", 
+                                 "votos_union_republicana",
+                                "pct_union_republicana", 
+                                "votos_partido_socialista",
+                                "pct_partido_socialista",
+                                "votos_republicana_socialista",
+                                "pct_republicana_socialista",
+                                "votos_partido_liberal",
+                                "pct_partido_liberal",
+                                "total"])
+
+df_1936.to_csv('../../data/temporary_data/comisionado_residente/data_1936.csv')
+
+#### 1940
+response = urllib.request.urlopen('http://209.68.12.238/cgi-bin/eventos.pl?evento=1940&voto=c')
+webpage = response.read()
+soup = BeautifulSoup(webpage, 'html.parser')
+
+table = soup.find_all('table')[5]
+table_rows = table.find_all('tr')
+tr = table_rows[0]
+td = tr.find_all('td')
+row = [tr.text for tr in td]
+
+np_1940 = np.array(row)
+np_1940.shape = (78, 16)
+
+df_1940 = pd.DataFrame(np_1940, columns = ["municipios", 
+                                 "votos_union_republicana",
+                                "pct_union_republicana", 
+                                "votos_partido_socialista",
+                                "pct_partido_socialista",
+                                "votos_republicana_socialista",
+                                "pct_republicana_socialista",
+                                "votos_popular_democratico",
+                                "pct_popular_democratico",
+                                "votos_unificacion_tripartita",
+                                "pct_unificacion_tripartita",
+                                "votos_partido_agricola",
+                                "pct_partido_agricola",
+                                "votos_tripartita_agricola",
+                                "pct_tripartita_agricola",
+                                "total"])
+                                
+df_1940.to_csv('../../data/temporary_data/comisionado_residente/data_1940.csv')
+
+
+#### 1944
+response = urllib.request.urlopen('http://209.68.12.238/cgi-bin/eventos.pl?evento=1944&voto=c')
+webpage = response.read()
+soup = BeautifulSoup(webpage, 'html.parser')
+table = soup.find_all('table')[5]
+table_rows = table.find_all('tr')
+tr = table_rows[0]
+td = tr.find_all('td')
+row = [tr.text for tr in td]
+np_1944 = np.array(row)
+np_1944.shape = (78, 16)
+
+df_1944 = pd.DataFrame(np_1944, 
+                       columns = ["municipios", 
+                                  "votos_popular_democratico",
+                                  "pct_popular_democratico",
+                                  "votos_republicana_progresista",
+                                  "pct_republicana_progresista",
+                                  "votos_partido_socialista",
+                                  "pct_partido_socialista",
+                                  "votos_partido_liberal",
+                                  "pct_partido_liberal",
+                                  "votos_socialista_liberal",
+                                  "pct_socialista_liberal",
+                                  "votos_partido_autentico",
+                                  "pct_partido_autentico",
+                                  "votos_partido_proletario",
+                                  "pct_partido_proletario",
+                                "total"])
+
+df_1944.to_csv('../../data/temporary_data/comisionado_residente/data_1944.csv')
+
+#### 1948
+response = urllib.request.urlopen('http://209.68.12.238/cgi-bin/eventos.pl?evento=1948&voto=g')
+webpage = response.read()
+soup = BeautifulSoup(webpage, 'html.parser')
+table = soup.find_all('table')[5]
+table_rows = table.find_all('tr')
+tr = table_rows[0]
+td = tr.find_all('td')
+row = [tr.text for tr in td]
+np_1948 = np.array(row)
+np_1948.shape = (78, 14)
+
+df_1948 = pd.DataFrame(np_1948, 
+                       columns = ["municipios", 
+                                  "votos_popular_democratico",
+                                  "pct_popular_democratico",
+                                  "votos_partido_estadista",
+                                  "pct_partido_estadista",
+                                  "votos_partido_socialista",
+                                  "pct_partido_socialista",
+                                  "votos_partido_reformista",
+                                  "pct_partido_reformista",
+                                  "votos_socialista_reformista",
+                                  "pct_socialista_reformista",
+                                  "votos_partido_independentista",
+                                  "pct_partido_independentista",
+                                "total"])
+
+df_1948.to_csv('../../data/temporary_data/gobernador/data_1948.csv')
+

@@ -1,0 +1,27 @@
+library(tidyverse)
+library(lubridate)
+
+parse_data <- function(year, post, columns, election_date){
+    df <- read_csv(paste0('data/temporary_data/', post, '/data_', year, '.csv'))
+    df <- df[, 2:columns]
+    
+    df %>% 
+        select(municipios, contains('votos')) %>%
+        gather(partido, votos, -municipios) %>%
+        mutate(partido = str_remove(partido, 'votos_')) %>%
+        mutate(partido = str_replace(partido, '_', ' ')) %>%
+        mutate(partido = str_to_title(partido))  %>%
+        mutate(elecciones = ymd(election_date)) %>%
+        mutate(puesto = post) ->
+        df
+    
+    write_csv(df, paste0('data/elecciones_generales/', 
+                         post, '/data_', year, '.csv'))
+}
+
+# parse_data(1932, 'comisionado_residente', 14, "1932-11-08")
+# parse_data(1936, 'comisionado_residente', 10, "1936-11-03")
+# parse_data(1940, "comisionado_residente", 16, "1940-11-05")
+# parse_data(1944, 'comisionado_residente', 16, "1944-11-07")
+# 
+# parse_data(1948, 'gobernador', 14, "1948-11-02")
