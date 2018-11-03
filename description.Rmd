@@ -3,12 +3,16 @@ title: "Puerto Rico Elections Historical Data"
 author: "Ian Flores Siaca"
 date: "November 2, 2018"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, echo = FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-library(DT)
+suppressPackageStartupMessages(library(DT))
 suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(forcats))
+suppressPackageStartupMessages(library(scales))
 ```
 
 **Data Available**:
@@ -19,21 +23,95 @@ suppressPackageStartupMessages(library(tidyverse))
 
 ### Governor Data Available
 
-```{r, include = TRUE}
+```{r, include = TRUE, fig.width=10, fig.height=6}
 data <- read_csv('data/elecciones_generales/gobernador/gobernador.csv')
-datatable(data = data, extensions = 'Buttons', options = list(dom = 'Btp', buttons = c('csv', 'excel', 'pdf')), filter = 'top', rownames = FALSE, class = 'hover row-border', colnames = c('Municipality', 'Year', 'Political Party', 'votes'))
+
+ggthemr::ggthemr('fresh')
+
+data %>%
+    group_by(year_data, partido) %>%
+    summarise(votos = sum(votos, na.rm = T)) %>%
+    filter(votos > 75000) %>%
+    mutate(partido = fct_drop(partido)) %>%
+    rename(year = year_data, votes = votos, party = partido) %>%
+    ggplot(aes(x = year, y = votes, colour = fct_reorder2(party, year, votes))) +
+        geom_line(aes(group = party)) +
+    labs(x = 'Year', y = 'Votes', 
+         colour = 'Political Party',
+         title = 'Governor Election Results',
+         subtitle = 'Data from 1948-2000',
+         caption = 'Only parties with more than 75,000 votes each year are displayed') +
+    scale_y_continuous(labels = comma_format())
+```
+
+#### Municipality-level data
+
+```{r}
+datatable(data = data, extensions = 'Buttons', 
+          options = list(dom = 'Btp', buttons = c('csv', 'excel', 'pdf')), 
+          filter = 'top', rownames = FALSE, class = 'hover row-border', 
+          colnames = c('Municipality', 'Year', 'Political Party', 'votes'))
 ```
 
 ### Resident Commissioner Data Available
 
-```{r, include = TRUE}
+```{r, include = TRUE, fig.width=10, fig.height=6}
 data <- read_csv('data/elecciones_generales/comisionado_residente/comisionado_residente.csv')
-datatable(data = data, extensions = 'Buttons', options = list(dom = 'Btp', buttons = c('csv', 'excel', 'pdf')), filter = 'top', rownames = FALSE, class = 'hover row-border', colnames = c('Municipality', 'Year', 'Political Party', 'votes'))
+
+ggthemr::ggthemr('fresh')
+
+data %>%
+    group_by(year_data, partido) %>%
+    summarise(votos = sum(votos, na.rm = T)) %>%
+    filter(year_data > 1979) %>%
+    filter(votos > 75000) %>%
+    mutate(partido = fct_drop(partido)) %>%
+    ggplot(aes(x = year_data, y = votos, colour = fct_reorder2(partido, year_data, votos))) +
+        geom_line(aes(group = partido)) +
+    labs(x = 'Year', y = 'Votes', 
+         colour = 'Political Party',
+         title = 'Resident Commisioner Results',
+         subtitle = 'Data from 1980-2000',
+         caption = 'Only parties with more than 75,000 votes each year are displayed') +
+    scale_y_continuous(labels = comma_format())
+```
+
+#### Municipality-level data
+
+```{r}
+datatable(data = data, extensions = 'Buttons', 
+          options = list(dom = 'Btp', buttons = c('csv', 'excel', 'pdf')), 
+          filter = 'top', rownames = FALSE, class = 'hover row-border', 
+          colnames = c('Municipality', 'Year', 'Political Party', 'votes'))
 ```
 
 ### Mayors Data Available
 
-```{r, include = TRUE}
+```{r, include = TRUE, fig.width=10, fig.height=6}
 data <- read_csv('data/elecciones_generales/alcalde/alcalde.csv')
-datatable(data = data, extensions = 'Buttons', options = list(dom = 'Btp', buttons = c('csv', 'excel', 'pdf')), filter = 'top', rownames = FALSE, class = 'hover row-border', colnames = c('Municipality', 'Year', 'Political Party', 'votes'))
+
+
+data %>%
+    group_by(year_data, partido) %>%
+    summarise(votos = sum(votos, na.rm = T)) %>%
+    filter(votos > 25000) %>%
+    mutate(partido = fct_drop(partido)) %>%
+    rename(year = year_data, votes = votos, party = partido) %>%
+    ggplot(aes(x = year, y = votes, colour = fct_reorder2(party, year, votes))) +
+        geom_line(aes(group = party)) +
+    labs(x = 'Year', y = 'Votes', 
+         colour = 'Political Party',
+         title = 'Mayor Results',
+         subtitle = 'Data from 1976-2000',
+         caption = 'Only parties with more than 25,000 votes each year are displayed') +
+    scale_y_continuous(labels = comma_format())
+```
+
+#### Municipality-level data
+
+```{r}
+datatable(data = data, extensions = 'Buttons', 
+          options = list(dom = 'Btp', buttons = c('csv', 'excel', 'pdf')), 
+          filter = 'top', rownames = FALSE, class = 'hover row-border', 
+          colnames = c('Municipality', 'Year', 'Political Party', 'votes'))
 ```

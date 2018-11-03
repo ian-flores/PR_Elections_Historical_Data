@@ -76,7 +76,6 @@ Vieques,1948,Partido_Popular_Democrático,1885
 Villalba,1948,Partido_Popular_Democrático,3463
 Yabucoa,1948,Partido_Popular_Democrático,7330
 Yauco,1948,Partido_Popular_Democrático,6583
-"Total,Puerto Rico",1948,Partido_Popular_Democrático,392386
 Adjuntas,1952,Partido_Popular_Democrático,4197
 Aguada,1952,Partido_Popular_Democrático,4024
 Aguadilla,1952,Partido_Popular_Democrático,5757
@@ -153,7 +152,6 @@ Vieques,1952,Partido_Popular_Democrático,1938
 Villalba,1952,Partido_Popular_Democrático,3424
 Yabucoa,1952,Partido_Popular_Democrático,7894
 Yauco,1952,Partido_Popular_Democrático,6623
-"Total,Puerto Rico",1952,Partido_Popular_Democrático,431409
 Adjuntas,1948,Partido_Estadista_Puertorriqueño,1556
 Aguada,1948,Partido_Estadista_Puertorriqueño,255
 Aguadilla,1948,Partido_Estadista_Puertorriqueño,3802
@@ -231,7 +229,6 @@ Vieques,1948,Partido_Estadista_Puertorriqueño,105
 Villalba,1948,Partido_Estadista_Puertorriqueño,651
 Yabucoa,1948,Partido_Estadista_Puertorriqueño,80
 Yauco,1948,Partido_Estadista_Puertorriqueño,1684
-"Total,Puerto Rico",1948,Partido_Estadista_Puertorriqueño,89441
 Adjuntas,1952,Partido_Estadista_Puertorriqueño,1700
 Aguada,1952,Partido_Estadista_Puertorriqueño,272
 Aguadilla,1952,Partido_Estadista_Puertorriqueño,2783
@@ -308,7 +305,6 @@ Vieques,1952,Partido_Estadista_Puertorriqueño,59
 Villalba,1952,Partido_Estadista_Puertorriqueño,1183
 Yabucoa,1952,Partido_Estadista_Puertorriqueño,84
 Yauco,1952,Partido_Estadista_Puertorriqueño,1260
-"Total,Puerto Rico",1952,Partido_Estadista_Puertorriqueño,85591
 Adjuntas,1948,Partido_Socialista,599
 Aguada,1948,Partido_Socialista,227
 Aguadilla,1948,Partido_Socialista,433
@@ -386,7 +382,6 @@ Vieques,1948,Partido_Socialista,994
 Villalba,1948,Partido_Socialista,278
 Yabucoa,1948,Partido_Socialista,2376
 Yauco,1948,Partido_Socialista,886
-"Total,Puerto Rico",1948,Partido_Socialista,64396
 Adjuntas,1948,Partido_Reformista_Puertorriqueño,119
 Aguada,1948,Partido_Reformista_Puertorriqueño,50
 Aguadilla,1948,Partido_Reformista_Puertorriqueño,119
@@ -464,85 +459,6 @@ Vieques,1948,Partido_Reformista_Puertorriqueño,40
 Villalba,1948,Partido_Reformista_Puertorriqueño,44
 Yabucoa,1948,Partido_Reformista_Puertorriqueño,221
 Yauco,1948,Partido_Reformista_Puertorriqueño,134
-"Total,Puerto Rico",1948,Partido_Reformista_Puertorriqueño,29140
-Adjuntas,1948,Total_Combinado,2274
-Aguada,1948,Total_Combinado,532
-Aguadilla,1948,Total_Combinado,4354
-Aguas Buenas,1948,Total_Combinado,2154
-Aibonito,1948,Total_Combinado,1343
-Añasco,1948,Total_Combinado,2044
-Arecibo,1948,Total_Combinado,8901
-Arroyo,1948,Total_Combinado,1717
-Barceloneta,1948,Total_Combinado,1625
-Barranquitas,1948,Total_Combinado,72
-Bayamón,1948,Total_Combinado,4272
-Cabo Rojo,1948,Total_Combinado,924
-Caguas,1948,Total_Combinado,3222
-Camuy,1948,Total_Combinado,1832
-Carolina,1948,Total_Combinado,1967
-Cataño,1948,Total_Combinado,2028
-Cayey,1948,Total_Combinado,3326
-Ceiba,1948,Total_Combinado,923
-Ciales,1948,Total_Combinado,1793
-Cidra,1948,Total_Combinado,621
-Coamo,1948,Total_Combinado,2332
-Comerío,1948,Total_Combinado,499
-Corozal,1948,Total_Combinado,2304
-Culebra,1948,Total_Combinado,174
-Dorado,1948,Total_Combinado,612
-Fajardo,1948,Total_Combinado,3120
-Guánica,1948,Total_Combinado,548
-Guayama,1948,Total_Combinado,1528
-Guayanilla,1948,Total_Combinado,2157
-Guaynabo,1948,Total_Combinado,2721
-Gurabo,1948,Total_Combinado,1373
-Hatillo,1948,Total_Combinado,1598
-Hormigueros,1948,Total_Combinado,846
-Humacao,1948,Total_Combinado,3420
-Isabela,1948,Total_Combinado,3797
-Jayuya,1948,Total_Combinado,886
-Juana Díaz,1948,Total_Combinado,2738
-Juncos,1948,Total_Combinado,3602
-Lajas,1948,Total_Combinado,780
-Lares,1948,Total_Combinado,2144
-Las Marías,1948,Total_Combinado,279
-Las Piedras,1948,Total_Combinado,2052
-Loíza,1948,Total_Combinado,3166
-Luquillo,1948,Total_Combinado,849
-Manatí,1948,Total_Combinado,3013
-Maricao,1948,Total_Combinado,261
-Maunabo,1948,Total_Combinado,185
-Mayagüez,1948,Total_Combinado,6113
-Moca,1948,Total_Combinado,1921
-Morovis,1948,Total_Combinado,2686
-Naguabo,1948,Total_Combinado,2245
-Naranjito,1948,Total_Combinado,1117
-Orocovis,1948,Total_Combinado,2094
-Patillas,1948,Total_Combinado,1609
-Peñuelas,1948,Total_Combinado,2359
-Ponce,1948,Total_Combinado,9172
-Quebradillas,1948,Total_Combinado,384
-Rincón,1948,Total_Combinado,205
-Río Grande,1948,Total_Combinado,1718
-Río Piedras,1948,Total_Combinado,7386
-Sabana Grande,1948,Total_Combinado,1882
-Salinas,1948,Total_Combinado,963
-San Germán,1948,Total_Combinado,2402
-San Juan,1948,Total_Combinado,21769
-San Lorenzo,1948,Total_Combinado,5015
-San Sebastián,1948,Total_Combinado,2028
-Santa Isabel,1948,Total_Combinado,841
-Toa Alta,1948,Total_Combinado,1161
-Toa Baja,1948,Total_Combinado,995
-Trujillo Alto,1948,Total_Combinado,516
-Utuado,1948,Total_Combinado,2022
-Vega Alta,1948,Total_Combinado,1741
-Vega Baja,1948,Total_Combinado,2232
-Vieques,1948,Total_Combinado,1139
-Villalba,1948,Total_Combinado,973
-Yabucoa,1948,Total_Combinado,2677
-Yauco,1948,Total_Combinado,2704
-"Total,Puerto Rico",1948,Total_Combinado,182977
 Adjuntas,1948,Partido_Independentista_Puertorriqueño,302
 Aguada,1948,Partido_Independentista_Puertorriqueño,625
 Aguadilla,1948,Partido_Independentista_Puertorriqueño,955
@@ -620,7 +536,6 @@ Vieques,1948,Partido_Independentista_Puertorriqueño,262
 Villalba,1948,Partido_Independentista_Puertorriqueño,127
 Yabucoa,1948,Partido_Independentista_Puertorriqueño,235
 Yauco,1948,Partido_Independentista_Puertorriqueño,1493
-"Total,Puerto Rico",1948,Partido_Independentista_Puertorriqueño,65351
 Adjuntas,1952,Partido_Independentista_Puertorriqueño,580
 Aguada,1952,Partido_Independentista_Puertorriqueño,1112
 Aguadilla,1952,Partido_Independentista_Puertorriqueño,2338
@@ -697,7 +612,6 @@ Vieques,1952,Partido_Independentista_Puertorriqueño,574
 Villalba,1952,Partido_Independentista_Puertorriqueño,98
 Yabucoa,1952,Partido_Independentista_Puertorriqueño,1408
 Yauco,1952,Partido_Independentista_Puertorriqueño,1963
-"Total,Puerto Rico",1952,Partido_Independentista_Puertorriqueño,126228
 Adjuntas,1952,Partido_Socialista_Puertorriqueño,84
 Aguada,1952,Partido_Socialista_Puertorriqueño,73
 Aguadilla,1952,Partido_Socialista_Puertorriqueño,78
@@ -774,7 +688,6 @@ Vieques,1952,Partido_Socialista_Puertorriqueño,198
 Villalba,1952,Partido_Socialista_Puertorriqueño,14
 Yabucoa,1952,Partido_Socialista_Puertorriqueño,482
 Yauco,1952,Partido_Socialista_Puertorriqueño,201
-"Total,Puerto Rico",1952,Partido_Socialista_Puertorriqueño,21719
 Adjuntas,1956,Partido_Popular_Democrático,3815
 Aguada,1956,Partido_Popular_Democrático,3711
 Aguadilla,1956,Partido_Popular_Democrático,6322
@@ -852,7 +765,6 @@ Villalba,1956,Partido_Popular_Democrático,3281
 Yabucoa,1956,Partido_Popular_Democrático,6662
 Yauco,1956,Partido_Popular_Democrático,6905
 Policías Especiales,1956,Partido_Popular_Democrático,40
-"Total,Puerto Rico",1956,Partido_Popular_Democrático,435255
 Adjuntas,1960,Partido_Popular_Democrático,3931
 Aguada,1960,Partido_Popular_Democrático,2906
 Aguadilla,1960,Partido_Popular_Democrático,6995
@@ -929,7 +841,6 @@ Vieques,1960,Partido_Popular_Democrático,1776
 Villalba,1960,Partido_Popular_Democrático,3167
 Yabucoa,1960,Partido_Popular_Democrático,5876
 Yauco,1960,Partido_Popular_Democrático,7083
-"Total,Puerto Rico",1960,Partido_Popular_Democrático,459759
 Adjuntas,1964,Partido_Popular_Democrático,3886
 Aguada,1964,Partido_Popular_Democrático,3617
 Aguadilla,1964,Partido_Popular_Democrático,7637
@@ -1006,7 +917,6 @@ Vieques,1964,Partido_Popular_Democrático,2049
 Villalba,1964,Partido_Popular_Democrático,3288
 Yabucoa,1964,Partido_Popular_Democrático,6859
 Yauco,1964,Partido_Popular_Democrático,7098
-"Total,Puerto Rico",1964,Partido_Popular_Democrático,492531
 Adjuntas,1968,Partido_Popular_Democrático,2718
 Aguada,1968,Partido_Popular_Democrático,2898
 Aguadilla,1968,Partido_Popular_Democrático,5504
@@ -1083,7 +993,6 @@ Vieques,1968,Partido_Popular_Democrático,1242
 Villalba,1968,Partido_Popular_Democrático,2520
 Yabucoa,1968,Partido_Popular_Democrático,5048
 Yauco,1968,Partido_Popular_Democrático,5131
-"Total,Puerto Rico",1968,Partido_Popular_Democrático,374040
 Adjuntas,1972,Partido_Popular_Democrático,4603
 Aguada,1972,Partido_Popular_Democrático,5222
 Aguadilla,1972,Partido_Popular_Democrático,10251
@@ -1162,7 +1071,6 @@ Vieques,1972,Partido_Popular_Democrático,1933
 Villalba,1972,Partido_Popular_Democrático,4196
 Yabucoa,1972,Partido_Popular_Democrático,7599
 Yauco,1972,Partido_Popular_Democrático,8470
-"Total,Puerto Rico",1972,Partido_Popular_Democrático,658856
 Adjuntas,1976,Partido_Popular_Democrático,4353
 Aguada,1976,Partido_Popular_Democrático,5741
 Aguadilla,1976,Partido_Popular_Democrático,10717
@@ -1241,7 +1149,6 @@ Vieques,1976,Partido_Popular_Democrático,2033
 Villalba,1976,Partido_Popular_Democrático,4088
 Yabucoa,1976,Partido_Popular_Democrático,8226
 Yauco,1976,Partido_Popular_Democrático,8201
-"Total,Puerto Rico",1976,Partido_Popular_Democrático,660401
 Adjuntas,1980,Partido_Popular_Democrático,5144
 Aguada,1980,Partido_Popular_Democrático,7175
 Aguadilla,1980,Partido_Popular_Democrático,12702
@@ -1320,7 +1227,6 @@ Vieques,1980,Partido_Popular_Democrático,2294
 Villalba,1980,Partido_Popular_Democrático,4742
 Yabucoa,1980,Partido_Popular_Democrático,8836
 Yauco,1980,Partido_Popular_Democrático,9873
-"Total,Puerto Rico",1980,Partido_Popular_Democrático,756889
 Adjuntas,1984,Partido_Popular_Democrático,5377
 Aguada,1984,Partido_Popular_Democrático,8018
 Aguadilla,1984,Partido_Popular_Democrático,13226
@@ -1399,7 +1305,6 @@ Vieques,1984,Partido_Popular_Democrático,2185
 Villalba,1984,Partido_Popular_Democrático,5407
 Yabucoa,1984,Partido_Popular_Democrático,9571
 Yauco,1984,Partido_Popular_Democrático,10734
-"Total,Puerto Rico",1984,Partido_Popular_Democrático,822709
 Adjuntas,1988,Partido_Popular_Democrático,5446
 Aguada,1988,Partido_Popular_Democrático,8143
 Aguadilla,1988,Partido_Popular_Democrático,13663
@@ -1478,7 +1383,6 @@ Vieques,1988,Partido_Popular_Democrático,2380
 Villalba,1988,Partido_Popular_Democrático,5976
 Yabucoa,1988,Partido_Popular_Democrático,9592
 Yauco,1988,Partido_Popular_Democrático,11276
-"Total,Puerto Rico",1988,Partido_Popular_Democrático,871858
 Adjuntas,1992,Partido_Popular_Democrático,5160
 Aguada,1992,Partido_Popular_Democrático,8480
 Aguadilla,1992,Partido_Popular_Democrático,13213
@@ -1557,7 +1461,6 @@ Vieques,1992,Partido_Popular_Democrático,2265
 Villalba,1992,Partido_Popular_Democrático,5911
 Yabucoa,1992,Partido_Popular_Democrático,10055
 Yauco,1992,Partido_Popular_Democrático,11160
-"Total,Puerto Rico",1992,Partido_Popular_Democrático,862989
 Adjuntas,1996,Partido_Popular_Democrático,5382
 Aguada,1996,Partido_Popular_Democrático,9276
 Aguadilla,1996,Partido_Popular_Democrático,13594
@@ -1636,7 +1539,6 @@ Vieques,1996,Partido_Popular_Democrático,2512
 Villalba,1996,Partido_Popular_Democrático,5990
 Yabucoa,1996,Partido_Popular_Democrático,10502
 Yauco,1996,Partido_Popular_Democrático,11249
-"Total,Puerto Rico",1996,Partido_Popular_Democrático,875852
 Adjuntas,2000,Partido_Popular_Democrático,5800
 Aguada,2000,Partido_Popular_Democrático,11259
 Aguadilla,2000,Partido_Popular_Democrático,14903
@@ -1715,7 +1617,6 @@ Vieques,2000,Partido_Popular_Democrático,3016
 Villalba,2000,Partido_Popular_Democrático,6818
 Yabucoa,2000,Partido_Popular_Democrático,10999
 Yauco,2000,Partido_Popular_Democrático,12364
-"Total,Puerto Rico",2000,Partido_Popular_Democrático,978860
 Adjuntas,1956,P_E_R,2183
 Aguada,1956,P_E_R,771
 Aguadilla,1956,P_E_R,3862
@@ -1793,7 +1694,6 @@ Villalba,1956,P_E_R,1291
 Yabucoa,1956,P_E_R,1732
 Yauco,1956,P_E_R,1937
 Policías Especiales,1956,P_E_R,11
-"Total,Puerto Rico",1956,P_E_R,174683
 Adjuntas,1960,P_E_R,2461
 Aguada,1960,P_E_R,490
 Aguadilla,1960,P_E_R,5180
@@ -1870,7 +1770,6 @@ Vieques,1960,P_E_R,876
 Villalba,1960,P_E_R,1447
 Yabucoa,1960,P_E_R,2029
 Yauco,1960,P_E_R,2968
-"Total,Puerto Rico",1960,P_E_R,253242
 Adjuntas,1964,P_E_R,2705
 Aguada,1964,P_E_R,737
 Aguadilla,1964,P_E_R,5275
@@ -1947,7 +1846,6 @@ Vieques,1964,P_E_R,638
 Villalba,1964,P_E_R,1704
 Yabucoa,1964,P_E_R,2717
 Yauco,1964,P_E_R,3321
-"Total,Puerto Rico",1964,P_E_R,288504
 Adjuntas,1968,P_E_R,26
 Aguada,1968,P_E_R,5
 Aguadilla,1968,P_E_R,263
@@ -2024,7 +1922,6 @@ Vieques,1968,P_E_R,4
 Villalba,1968,P_E_R,11
 Yabucoa,1968,P_E_R,36
 Yauco,1968,P_E_R,41
-"Total,Puerto Rico",1968,P_E_R,4449
 Adjuntas,1956,Partido_Independentista_Puertorriqueño,415
 Aguada,1956,Partido_Independentista_Puertorriqueño,1070
 Aguadilla,1956,Partido_Independentista_Puertorriqueño,1386
@@ -2102,7 +1999,6 @@ Villalba,1956,Partido_Independentista_Puertorriqueño,105
 Yabucoa,1956,Partido_Independentista_Puertorriqueño,1044
 Yauco,1956,Partido_Independentista_Puertorriqueño,1413
 Policías Especiales,1956,Partido_Independentista_Puertorriqueño,7
-"Total,Puerto Rico",1956,Partido_Independentista_Puertorriqueño,86636
 Adjuntas,1960,Partido_Independentista_Puertorriqueño,157
 Aguada,1960,Partido_Independentista_Puertorriqueño,190
 Aguadilla,1960,Partido_Independentista_Puertorriqueño,476
@@ -2179,7 +2075,6 @@ Vieques,1960,Partido_Independentista_Puertorriqueño,162
 Villalba,1960,Partido_Independentista_Puertorriqueño,45
 Yabucoa,1960,Partido_Independentista_Puertorriqueño,86
 Yauco,1960,Partido_Independentista_Puertorriqueño,481
-"Total,Puerto Rico",1960,Partido_Independentista_Puertorriqueño,24211
 Adjuntas,1964,Partido_Independentista_Puertorriqueño,134
 Aguada,1964,Partido_Independentista_Puertorriqueño,132
 Aguadilla,1964,Partido_Independentista_Puertorriqueño,332
@@ -2256,7 +2151,6 @@ Vieques,1964,Partido_Independentista_Puertorriqueño,129
 Villalba,1964,Partido_Independentista_Puertorriqueño,48
 Yabucoa,1964,Partido_Independentista_Puertorriqueño,128
 Yauco,1964,Partido_Independentista_Puertorriqueño,261
-"Total,Puerto Rico",1964,Partido_Independentista_Puertorriqueño,23340
 Adjuntas,1968,Partido_Independentista_Puertorriqueño,113
 Aguada,1968,Partido_Independentista_Puertorriqueño,222
 Aguadilla,1968,Partido_Independentista_Puertorriqueño,303
@@ -2333,7 +2227,6 @@ Vieques,1968,Partido_Independentista_Puertorriqueño,80
 Villalba,1968,Partido_Independentista_Puertorriqueño,51
 Yabucoa,1968,Partido_Independentista_Puertorriqueño,127
 Yauco,1968,Partido_Independentista_Puertorriqueño,354
-"Total,Puerto Rico",1968,Partido_Independentista_Puertorriqueño,32166
 Adjuntas,1972,Partido_Independentista_Puertorriqueño,311
 Aguada,1972,Partido_Independentista_Puertorriqueño,644
 Aguadilla,1972,Partido_Independentista_Puertorriqueño,967
@@ -2412,7 +2305,6 @@ Vieques,1972,Partido_Independentista_Puertorriqueño,169
 Villalba,1972,Partido_Independentista_Puertorriqueño,218
 Yabucoa,1972,Partido_Independentista_Puertorriqueño,734
 Yauco,1972,Partido_Independentista_Puertorriqueño,795
-"Total,Puerto Rico",1972,Partido_Independentista_Puertorriqueño,69654
 Adjuntas,1976,Partido_Independentista_Puertorriqueño,289
 Aguada,1976,Partido_Independentista_Puertorriqueño,560
 Aguadilla,1976,Partido_Independentista_Puertorriqueño,1019
@@ -2491,7 +2383,6 @@ Vieques,1976,Partido_Independentista_Puertorriqueño,183
 Villalba,1976,Partido_Independentista_Puertorriqueño,161
 Yabucoa,1976,Partido_Independentista_Puertorriqueño,489
 Yauco,1976,Partido_Independentista_Puertorriqueño,1059
-"Total,Puerto Rico",1976,Partido_Independentista_Puertorriqueño,83037
 Adjuntas,1980,Partido_Independentista_Puertorriqueño,273
 Aguada,1980,Partido_Independentista_Puertorriqueño,651
 Aguadilla,1980,Partido_Independentista_Puertorriqueño,1035
@@ -2570,7 +2461,6 @@ Vieques,1980,Partido_Independentista_Puertorriqueño,351
 Villalba,1980,Partido_Independentista_Puertorriqueño,237
 Yabucoa,1980,Partido_Independentista_Puertorriqueño,638
 Yauco,1980,Partido_Independentista_Puertorriqueño,976
-"Total,Puerto Rico",1980,Partido_Independentista_Puertorriqueño,87272
 Adjuntas,1984,Partido_Independentista_Puertorriqueño,201
 Aguada,1984,Partido_Independentista_Puertorriqueño,567
 Aguadilla,1984,Partido_Independentista_Puertorriqueño,742
@@ -2649,7 +2539,6 @@ Vieques,1984,Partido_Independentista_Puertorriqueño,282
 Villalba,1984,Partido_Independentista_Puertorriqueño,210
 Yabucoa,1984,Partido_Independentista_Puertorriqueño,494
 Yauco,1984,Partido_Independentista_Puertorriqueño,723
-"Total,Puerto Rico",1984,Partido_Independentista_Puertorriqueño,61312
 Adjuntas,1988,Partido_Independentista_Puertorriqueño,276
 Aguada,1988,Partido_Independentista_Puertorriqueño,846
 Aguadilla,1988,Partido_Independentista_Puertorriqueño,1201
@@ -2728,7 +2617,6 @@ Vieques,1988,Partido_Independentista_Puertorriqueño,371
 Villalba,1988,Partido_Independentista_Puertorriqueño,296
 Yabucoa,1988,Partido_Independentista_Puertorriqueño,830
 Yauco,1988,Partido_Independentista_Puertorriqueño,1265
-"Total,Puerto Rico",1988,Partido_Independentista_Puertorriqueño,99206
 Adjuntas,1992,Partido_Independentista_Puertorriqueño,257
 Aguada,1992,Partido_Independentista_Puertorriqueño,783
 Aguadilla,1992,Partido_Independentista_Puertorriqueño,988
@@ -2807,7 +2695,6 @@ Vieques,1992,Partido_Independentista_Puertorriqueño,296
 Villalba,1992,Partido_Independentista_Puertorriqueño,262
 Yabucoa,1992,Partido_Independentista_Puertorriqueño,646
 Yauco,1992,Partido_Independentista_Puertorriqueño,980
-"Total,Puerto Rico",1992,Partido_Independentista_Puertorriqueño,79219
 Adjuntas,1996,Partido_Independentista_Puertorriqueño,199
 Aguada,1996,Partido_Independentista_Puertorriqueño,727
 Aguadilla,1996,Partido_Independentista_Puertorriqueño,945
@@ -2886,7 +2773,6 @@ Vieques,1996,Partido_Independentista_Puertorriqueño,241
 Villalba,1996,Partido_Independentista_Puertorriqueño,250
 Yabucoa,1996,Partido_Independentista_Puertorriqueño,581
 Yauco,1996,Partido_Independentista_Puertorriqueño,929
-"Total,Puerto Rico",1996,Partido_Independentista_Puertorriqueño,75305
 Adjuntas,2000,Partido_Independentista_Puertorriqueño,285
 Aguada,2000,Partido_Independentista_Puertorriqueño,1045
 Aguadilla,2000,Partido_Independentista_Puertorriqueño,1298
@@ -2965,7 +2851,6 @@ Vieques,2000,Partido_Independentista_Puertorriqueño,608
 Villalba,2000,Partido_Independentista_Puertorriqueño,431
 Yabucoa,2000,Partido_Independentista_Puertorriqueño,846
 Yauco,2000,Partido_Independentista_Puertorriqueño,1253
-"Total,Puerto Rico",2000,Partido_Independentista_Puertorriqueño,104705
 Adjuntas,1960,P_A_C,160
 Aguada,1960,P_A_C,2502
 Aguadilla,1960,P_A_C,270
@@ -3042,7 +2927,6 @@ Vieques,1960,P_A_C,6
 Villalba,1960,P_A_C,519
 Yabucoa,1960,P_A_C,2209
 Yauco,1960,P_A_C,470
-"Total,Puerto Rico",1960,P_A_C,52275
 Adjuntas,1964,P_A_C,27
 Aguada,1964,P_A_C,2165
 Aguadilla,1964,P_A_C,92
@@ -3119,7 +3003,6 @@ Vieques,1964,P_A_C,9
 Villalba,1964,P_A_C,368
 Yabucoa,1964,P_A_C,831
 Yauco,1964,P_A_C,287
-"Total,Puerto Rico",1964,P_A_C,27076
 Adjuntas,1968,Partido_Nuevo_Progresista,3183
 Aguada,1968,Partido_Nuevo_Progresista,3212
 Aguadilla,1968,Partido_Nuevo_Progresista,6038
@@ -3196,7 +3079,6 @@ Vieques,1968,Partido_Nuevo_Progresista,970
 Villalba,1968,Partido_Nuevo_Progresista,2563
 Yabucoa,1968,Partido_Nuevo_Progresista,4067
 Yauco,1968,Partido_Nuevo_Progresista,4630
-"Total,Puerto Rico",1968,Partido_Nuevo_Progresista,400815
 Adjuntas,1972,Partido_Nuevo_Progresista,3968
 Aguada,1972,Partido_Nuevo_Progresista,4586
 Aguadilla,1972,Partido_Nuevo_Progresista,9111
@@ -3275,7 +3157,6 @@ Vieques,1972,Partido_Nuevo_Progresista,1659
 Villalba,1972,Partido_Nuevo_Progresista,3754
 Yabucoa,1972,Partido_Nuevo_Progresista,6084
 Yauco,1972,Partido_Nuevo_Progresista,6497
-"Total,Puerto Rico",1972,Partido_Nuevo_Progresista,563609
 Adjuntas,1976,Partido_Nuevo_Progresista,4439
 Aguada,1976,Partido_Nuevo_Progresista,6613
 Aguadilla,1976,Partido_Nuevo_Progresista,12345
@@ -3354,7 +3235,6 @@ Vieques,1976,Partido_Nuevo_Progresista,1879
 Villalba,1976,Partido_Nuevo_Progresista,4523
 Yabucoa,1976,Partido_Nuevo_Progresista,7218
 Yauco,1976,Partido_Nuevo_Progresista,8126
-"Total,Puerto Rico",1976,Partido_Nuevo_Progresista,703968
 Adjuntas,1980,Partido_Nuevo_Progresista,4953
 Aguada,1980,Partido_Nuevo_Progresista,7654
 Aguadilla,1980,Partido_Nuevo_Progresista,13012
@@ -3433,7 +3313,6 @@ Vieques,1980,Partido_Nuevo_Progresista,1765
 Villalba,1980,Partido_Nuevo_Progresista,4975
 Yabucoa,1980,Partido_Nuevo_Progresista,8193
 Yauco,1980,Partido_Nuevo_Progresista,8431
-"Total,Puerto Rico",1980,Partido_Nuevo_Progresista,759926
 Adjuntas,1984,Partido_Nuevo_Progresista,4944
 Aguada,1984,Partido_Nuevo_Progresista,8373
 Aguadilla,1984,Partido_Nuevo_Progresista,13380
@@ -3512,7 +3391,6 @@ Vieques,1984,Partido_Nuevo_Progresista,2168
 Villalba,1984,Partido_Nuevo_Progresista,5740
 Yabucoa,1984,Partido_Nuevo_Progresista,8179
 Yauco,1984,Partido_Nuevo_Progresista,9178
-"Total,Puerto Rico",1984,Partido_Nuevo_Progresista,768959
 Adjuntas,1988,Partido_Nuevo_Progresista,5484
 Aguada,1988,Partido_Nuevo_Progresista,9398
 Aguadilla,1988,Partido_Nuevo_Progresista,14635
@@ -3591,7 +3469,6 @@ Vieques,1988,Partido_Nuevo_Progresista,2520
 Villalba,1988,Partido_Nuevo_Progresista,6368
 Yabucoa,1988,Partido_Nuevo_Progresista,9084
 Yauco,1988,Partido_Nuevo_Progresista,9068
-"Total,Puerto Rico",1988,Partido_Nuevo_Progresista,820342
 Adjuntas,1992,Partido_Nuevo_Progresista,5782
 Aguada,1992,Partido_Nuevo_Progresista,10940
 Aguadilla,1992,Partido_Nuevo_Progresista,16234
@@ -3670,7 +3547,6 @@ Vieques,1992,Partido_Nuevo_Progresista,2910
 Villalba,1992,Partido_Nuevo_Progresista,7118
 Yabucoa,1992,Partido_Nuevo_Progresista,10688
 Yauco,1992,Partido_Nuevo_Progresista,10770
-"Total,Puerto Rico",1992,Partido_Nuevo_Progresista,938969
 Adjuntas,1996,Partido_Nuevo_Progresista,6028
 Aguada,1996,Partido_Nuevo_Progresista,11928
 Aguadilla,1996,Partido_Nuevo_Progresista,17595
@@ -3749,7 +3625,6 @@ Vieques,1996,Partido_Nuevo_Progresista,2713
 Villalba,1996,Partido_Nuevo_Progresista,7985
 Yabucoa,1996,Partido_Nuevo_Progresista,11283
 Yauco,1996,Partido_Nuevo_Progresista,11930
-"Total,Puerto Rico",1996,Partido_Nuevo_Progresista,1006331
 Adjuntas,2000,Partido_Nuevo_Progresista,5762
 Aguada,2000,Partido_Nuevo_Progresista,11168
 Aguadilla,2000,Partido_Nuevo_Progresista,16053
@@ -3828,7 +3703,6 @@ Vieques,2000,Partido_Nuevo_Progresista,1809
 Villalba,2000,Partido_Nuevo_Progresista,7616
 Yabucoa,2000,Partido_Nuevo_Progresista,10992
 Yauco,2000,Partido_Nuevo_Progresista,11030
-"Total,Puerto Rico",2000,Partido_Nuevo_Progresista,919194
 Adjuntas,1968,P_P,897
 Aguada,1968,P_P,657
 Aguadilla,1968,P_P,1910
@@ -3905,7 +3779,6 @@ Vieques,1968,P_P,827
 Villalba,1968,P_P,477
 Yabucoa,1968,P_P,1105
 Yauco,1968,P_P,1342
-"Total,Puerto Rico",1968,P_P,107359
 Adjuntas,1972,P_P,31
 Aguada,1972,P_P,32
 Aguadilla,1972,P_P,64
@@ -3984,7 +3857,6 @@ Vieques,1972,P_P,79
 Villalba,1972,P_P,15
 Yabucoa,1972,P_P,22
 Yauco,1972,P_P,53
-"Total,Puerto Rico",1972,P_P,4007
 Adjuntas,1972,P_U_P,13
 Aguada,1972,P_U_P,12
 Aguadilla,1972,P_U_P,34
@@ -4063,7 +3935,6 @@ Vieques,1972,P_U_P,2
 Villalba,1972,P_U_P,5
 Yabucoa,1972,P_U_P,7
 Yauco,1972,P_U_P,21
-"Total,Puerto Rico",1972,P_U_P,3291
 Adjuntas,1972,P_A_S,2
 Aguada,1972,P_A_S,1
 Aguadilla,1972,P_A_S,6
@@ -4142,7 +4013,6 @@ Vieques,1972,P_A_S,0
 Villalba,1972,P_A_S,1
 Yabucoa,1972,P_A_S,2
 Yauco,1972,P_A_S,6
-"Total,Puerto Rico",1972,P_A_S,467
 Adjuntas,1976,P_S_P,22
 Aguada,1976,P_S_P,167
 Aguadilla,1976,P_S_P,165
@@ -4221,7 +4091,6 @@ Vieques,1976,P_S_P,30
 Villalba,1976,P_S_P,12
 Yabucoa,1976,P_S_P,149
 Yauco,1976,P_S_P,156
-"Total,Puerto Rico",1976,P_S_P,10728
 Adjuntas,1980,P_S_P,7
 Aguada,1980,P_S_P,114
 Aguadilla,1980,P_S_P,111
@@ -4300,7 +4169,6 @@ Vieques,1980,P_S_P,40
 Villalba,1980,P_S_P,6
 Yabucoa,1980,P_S_P,70
 Yauco,1980,P_S_P,123
-"Total,Puerto Rico",1980,P_S_P,5224
 Adjuntas,1984,Partido_Renovación_Puertorriqueña,335
 Aguada,1984,Partido_Renovación_Puertorriqueña,709
 Aguadilla,1984,Partido_Renovación_Puertorriqueña,1141
@@ -4379,7 +4247,6 @@ Vieques,1984,Partido_Renovación_Puertorriqueña,166
 Villalba,1984,Partido_Renovación_Puertorriqueña,364
 Yabucoa,1984,Partido_Renovación_Puertorriqueña,447
 Yauco,1984,Partido_Renovación_Puertorriqueña,836
-"Total,Puerto Rico",1984,Partido_Renovación_Puertorriqueña,69807
 Adjuntas,1992,Otros,2
 Aguada,1992,Otros,5
 Aguadilla,1992,Otros,96
@@ -4458,7 +4325,6 @@ Vieques,1992,Otros,1
 Villalba,1992,Otros,1
 Yabucoa,1992,Otros,6
 Yauco,1992,Otros,11
-"Total,Puerto Rico",1992,Otros,695
 Adjuntas,1996,Otros,0
 Aguada,1996,Otros,8
 Aguadilla,1996,Otros,10
@@ -4537,7 +4403,6 @@ Vieques,1996,Otros,2
 Villalba,1996,Otros,3
 Yabucoa,1996,Otros,5
 Yauco,1996,Otros,9
-"Total,Puerto Rico",1996,Otros,808
 Adjuntas,2000,Otros,1
 Aguada,2000,Otros,12
 Aguadilla,2000,Otros,12
@@ -4616,7 +4481,6 @@ Vieques,2000,Otros,0
 Villalba,2000,Otros,7
 Yabucoa,2000,Otros,13
 Yauco,2000,Otros,12
-"Total,Puerto Rico",2000,Otros,709
 Adjuntas,1996,Blanco,43
 Aguada,1996,Blanco,71
 Aguadilla,1996,Blanco,81
@@ -4695,7 +4559,6 @@ Vieques,1996,Blanco,24
 Villalba,1996,Blanco,46
 Yabucoa,1996,Blanco,61
 Yauco,1996,Blanco,62
-"Total,Puerto Rico",1996,Blanco,4887
 Adjuntas,2000,Blanco,39
 Aguada,2000,Blanco,80
 Aguadilla,2000,Blanco,69
@@ -4774,7 +4637,6 @@ Vieques,2000,Blanco,17
 Villalba,2000,Blanco,65
 Yabucoa,2000,Blanco,41
 Yauco,2000,Blanco,62
-"Total,Puerto Rico",2000,Blanco,4103
 Adjuntas,1996,Nulo,26
 Aguada,1996,Nulo,37
 Aguadilla,1996,Nulo,75
@@ -4853,7 +4715,6 @@ Vieques,1996,Nulo,17
 Villalba,1996,Nulo,29
 Yabucoa,1996,Nulo,71
 Yauco,1996,Nulo,64
-"Total,Puerto Rico",1996,Nulo,4522
 Adjuntas,2000,Nulo,20
 Aguada,2000,Nulo,42
 Aguadilla,2000,Nulo,82
@@ -4932,4 +4793,3 @@ Vieques,2000,Nulo,27
 Villalba,2000,Nulo,21
 Yabucoa,2000,Nulo,56
 Yauco,2000,Nulo,67
-"Total,Puerto Rico",2000,Nulo,4564

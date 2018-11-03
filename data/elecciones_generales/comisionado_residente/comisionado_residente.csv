@@ -76,7 +76,6 @@ Vieques,1932,Unión_Republicana,136
 Villalba,1932,Unión_Republicana,1082
 Yabucoa,1932,Unión_Republicana,243
 Yauco,1932,Unión_Republicana,3550
-"Total,Puerto Rico",1932,Unión_Republicana,110794
 Adjuntas,1932,Partido_Socialista,1192
 Aguada,1932,Partido_Socialista,1282
 Aguadilla,1932,Partido_Socialista,1069
@@ -154,7 +153,6 @@ Vieques,1932,Partido_Socialista,938
 Villalba,1932,Partido_Socialista,326
 Yabucoa,1932,Partido_Socialista,2204
 Yauco,1932,Partido_Socialista,1263
-"Total,Puerto Rico",1932,Partido_Socialista,97438
 Adjuntas,1936,Partido_Socialista,1648
 Aguada,1936,Partido_Socialista,1995
 Aguadilla,1936,Partido_Socialista,1862
@@ -232,7 +230,6 @@ Vieques,1936,Partido_Socialista,1662
 Villalba,1936,Partido_Socialista,352
 Yabucoa,1936,Partido_Socialista,3198
 Yauco,1936,Partido_Socialista,1832
-"Total,Puerto Rico",1936,Partido_Socialista,144294
 Adjuntas,1940,Partido_Socialista,1150
 Aguada,1940,Partido_Socialista,1605
 Aguadilla,1940,Partido_Socialista,919
@@ -310,7 +307,6 @@ Vieques,1940,Partido_Socialista,1432
 Villalba,1940,Partido_Socialista,369
 Yabucoa,1940,Partido_Socialista,2862
 Yauco,1940,Partido_Socialista,1563
-"Total,Puerto Rico",1940,Partido_Socialista,87841
 Adjuntas,1944,Partido_Socialista,690
 Aguada,1944,Partido_Socialista,583
 Aguadilla,1944,Partido_Socialista,606
@@ -388,319 +384,6 @@ Vieques,1944,Partido_Socialista,1166
 Villalba,1944,Partido_Socialista,209
 Yabucoa,1944,Partido_Socialista,2202
 Yauco,1944,Partido_Socialista,937
-"Total,Puerto Rico",1944,Partido_Socialista,68107
-Adjuntas,1932,Total_Combinado,2557
-Aguada,1932,Total_Combinado,1899
-Aguadilla,1932,Total_Combinado,5119
-Aguas Buenas,1932,Total_Combinado,957
-Aibonito,1932,Total_Combinado,2012
-Añasco,1932,Total_Combinado,1982
-Arecibo,1932,Total_Combinado,7429
-Arroyo,1932,Total_Combinado,1102
-Barceloneta,1932,Total_Combinado,1760
-Barranquitas,1932,Total_Combinado,457
-Bayamón,1932,Total_Combinado,4175
-Cabo Rojo,1932,Total_Combinado,3788
-Caguas,1932,Total_Combinado,5541
-Camuy,1932,Total_Combinado,1939
-Carolina,1932,Total_Combinado,2526
-Cataño,1932,Total_Combinado,1508
-Cayey,1932,Total_Combinado,4126
-Ceiba,1932,Total_Combinado,1047
-Ciales,1932,Total_Combinado,2593
-Cidra,1932,Total_Combinado,846
-Coamo,1932,Total_Combinado,3516
-Comerío,1932,Total_Combinado,1069
-Corozal,1932,Total_Combinado,1743
-Culebra,1932,Total_Combinado,67
-Dorado,1932,Total_Combinado,1486
-Fajardo,1932,Total_Combinado,2645
-Guánica,1932,Total_Combinado,2487
-Guayama,1932,Total_Combinado,4688
-Guayanilla,1932,Total_Combinado,1995
-Guaynabo,1932,Total_Combinado,1571
-Gurabo,1932,Total_Combinado,1785
-Hatillo,1932,Total_Combinado,1629
-Hormigueros,1932,Total_Combinado,752
-Humacao,1932,Total_Combinado,3521
-Isabela,1932,Total_Combinado,2873
-Jayuya,1932,Total_Combinado,1456
-Juana Díaz,1932,Total_Combinado,2820
-Juncos,1932,Total_Combinado,1845
-Lajas,1932,Total_Combinado,2207
-Lares,1932,Total_Combinado,4071
-Las Marías,1932,Total_Combinado,995
-Las Piedras,1932,Total_Combinado,1292
-Loíza,1932,Total_Combinado,1954
-Luquillo,1932,Total_Combinado,794
-Manatí,1932,Total_Combinado,3049
-Maricao,1932,Total_Combinado,752
-Maunabo,1932,Total_Combinado,889
-Mayagüez,1932,Total_Combinado,11084
-Moca,1932,Total_Combinado,2385
-Morovis,1932,Total_Combinado,2157
-Naguabo,1932,Total_Combinado,2427
-Naranjito,1932,Total_Combinado,1111
-Orocovis,1932,Total_Combinado,2880
-Patillas,1932,Total_Combinado,1525
-Peñuelas,1932,Total_Combinado,2225
-Ponce,1932,Total_Combinado,12479
-Quebradillas,1932,Total_Combinado,1005
-Rincón,1932,Total_Combinado,580
-Río Grande,1932,Total_Combinado,1866
-Río Piedras,1932,Total_Combinado,4933
-Sabana Grande,1932,Total_Combinado,1893
-Salinas,1932,Total_Combinado,2483
-San Germán,1932,Total_Combinado,4137
-San Juan,1932,Total_Combinado,18071
-San Lorenzo,1932,Total_Combinado,2031
-San Sebastián,1932,Total_Combinado,2371
-Santa Isabel,1932,Total_Combinado,1364
-Toa Alta,1932,Total_Combinado,1582
-Toa Baja,1932,Total_Combinado,1903
-Trujillo Alto,1932,Total_Combinado,610
-Utuado,1932,Total_Combinado,4172
-Vega Alta,1932,Total_Combinado,1349
-Vega Baja,1932,Total_Combinado,2553
-Vieques,1932,Total_Combinado,1074
-Villalba,1932,Total_Combinado,1408
-Yabucoa,1932,Total_Combinado,2447
-Yauco,1932,Total_Combinado,4813
-"Total,Puerto Rico",1932,Total_Combinado,208232
-Adjuntas,1936,Total_Combinado,3229
-Aguada,1936,Total_Combinado,3138
-Aguadilla,1936,Total_Combinado,7300
-Aguas Buenas,1936,Total_Combinado,1793
-Aibonito,1936,Total_Combinado,2702
-Añasco,1936,Total_Combinado,3205
-Arecibo,1936,Total_Combinado,12696
-Arroyo,1936,Total_Combinado,1843
-Barceloneta,1936,Total_Combinado,3351
-Barranquitas,1936,Total_Combinado,661
-Bayamón,1936,Total_Combinado,5800
-Cabo Rojo,1936,Total_Combinado,5061
-Caguas,1936,Total_Combinado,6712
-Camuy,1936,Total_Combinado,3164
-Carolina,1936,Total_Combinado,2603
-Cataño,1936,Total_Combinado,1745
-Cayey,1936,Total_Combinado,4850
-Ceiba,1936,Total_Combinado,1603
-Ciales,1936,Total_Combinado,3686
-Cidra,1936,Total_Combinado,964
-Coamo,1936,Total_Combinado,5022
-Comerío,1936,Total_Combinado,1724
-Corozal,1936,Total_Combinado,2978
-Culebra,1936,Total_Combinado,154
-Dorado,1936,Total_Combinado,1875
-Fajardo,1936,Total_Combinado,3970
-Guánica,1936,Total_Combinado,3653
-Guayama,1936,Total_Combinado,5209
-Guayanilla,1936,Total_Combinado,2351
-Guaynabo,1936,Total_Combinado,2363
-Gurabo,1936,Total_Combinado,2718
-Hatillo,1936,Total_Combinado,2793
-Hormigueros,1936,Total_Combinado,1451
-Humacao,1936,Total_Combinado,4891
-Isabela,1936,Total_Combinado,3667
-Jayuya,1936,Total_Combinado,2266
-Juana Díaz,1936,Total_Combinado,4571
-Juncos,1936,Total_Combinado,3322
-Lajas,1936,Total_Combinado,3250
-Lares,1936,Total_Combinado,5426
-Las Marías,1936,Total_Combinado,1343
-Las Piedras,1936,Total_Combinado,2276
-Loíza,1936,Total_Combinado,2715
-Luquillo,1936,Total_Combinado,1405
-Manatí,1936,Total_Combinado,5548
-Maricao,1936,Total_Combinado,1169
-Maunabo,1936,Total_Combinado,1840
-Mayagüez,1936,Total_Combinado,15463
-Moca,1936,Total_Combinado,3771
-Morovis,1936,Total_Combinado,3283
-Naguabo,1936,Total_Combinado,3119
-Naranjito,1936,Total_Combinado,2104
-Orocovis,1936,Total_Combinado,3341
-Patillas,1936,Total_Combinado,2565
-Peñuelas,1936,Total_Combinado,3034
-Ponce,1936,Total_Combinado,16562
-Quebradillas,1936,Total_Combinado,1542
-Rincón,1936,Total_Combinado,1245
-Río Grande,1936,Total_Combinado,2712
-Río Piedras,1936,Total_Combinado,6605
-Sabana Grande,1936,Total_Combinado,2794
-Salinas,1936,Total_Combinado,3506
-San Germán,1936,Total_Combinado,4995
-San Juan,1936,Total_Combinado,22115
-San Lorenzo,1936,Total_Combinado,3546
-San Sebastián,1936,Total_Combinado,4312
-Santa Isabel,1936,Total_Combinado,1795
-Toa Alta,1936,Total_Combinado,2719
-Toa Baja,1936,Total_Combinado,2251
-Trujillo Alto,1936,Total_Combinado,1557
-Utuado,1936,Total_Combinado,5277
-Vega Alta,1936,Total_Combinado,2533
-Vega Baja,1936,Total_Combinado,4104
-Vieques,1936,Total_Combinado,1890
-Villalba,1936,Total_Combinado,1512
-Yabucoa,1936,Total_Combinado,3937
-Yauco,1936,Total_Combinado,6788
-"Total,Puerto Rico",1936,Total_Combinado,297033
-Adjuntas,1940,Total_Combinado,3179
-Aguada,1940,Total_Combinado,2001
-Aguadilla,1940,Total_Combinado,5812
-Aguas Buenas,1940,Total_Combinado,1745
-Aibonito,1940,Total_Combinado,1961
-Añasco,1940,Total_Combinado,2844
-Arecibo,1940,Total_Combinado,6060
-Arroyo,1940,Total_Combinado,1441
-Barceloneta,1940,Total_Combinado,2428
-Barranquitas,1940,Total_Combinado,223
-Bayamón,1940,Total_Combinado,5773
-Cabo Rojo,1940,Total_Combinado,1652
-Caguas,1940,Total_Combinado,2714
-Camuy,1940,Total_Combinado,3022
-Carolina,1940,Total_Combinado,1955
-Cataño,1940,Total_Combinado,1656
-Cayey,1940,Total_Combinado,3837
-Ceiba,1940,Total_Combinado,876
-Ciales,1940,Total_Combinado,2559
-Cidra,1940,Total_Combinado,1167
-Coamo,1940,Total_Combinado,3213
-Comerío,1940,Total_Combinado,940
-Corozal,1940,Total_Combinado,2858
-Culebra,1940,Total_Combinado,168
-Dorado,1940,Total_Combinado,1642
-Fajardo,1940,Total_Combinado,3622
-Guánica,1940,Total_Combinado,1592
-Guayama,1940,Total_Combinado,2617
-Guayanilla,1940,Total_Combinado,1845
-Guaynabo,1940,Total_Combinado,2379
-Gurabo,1940,Total_Combinado,1618
-Hatillo,1940,Total_Combinado,2241
-Hormigueros,1940,Total_Combinado,1190
-Humacao,1940,Total_Combinado,2562
-Isabela,1940,Total_Combinado,4148
-Jayuya,1940,Total_Combinado,1798
-Juana Díaz,1940,Total_Combinado,4277
-Juncos,1940,Total_Combinado,3096
-Lajas,1940,Total_Combinado,2032
-Lares,1940,Total_Combinado,3555
-Las Marías,1940,Total_Combinado,949
-Las Piedras,1940,Total_Combinado,1235
-Loíza,1940,Total_Combinado,2613
-Luquillo,1940,Total_Combinado,1068
-Manatí,1940,Total_Combinado,5188
-Maricao,1940,Total_Combinado,606
-Maunabo,1940,Total_Combinado,848
-Mayagüez,1940,Total_Combinado,8890
-Moca,1940,Total_Combinado,2808
-Morovis,1940,Total_Combinado,3478
-Naguabo,1940,Total_Combinado,2634
-Naranjito,1940,Total_Combinado,1651
-Orocovis,1940,Total_Combinado,2756
-Patillas,1940,Total_Combinado,1962
-Peñuelas,1940,Total_Combinado,2804
-Ponce,1940,Total_Combinado,12108
-Quebradillas,1940,Total_Combinado,1440
-Rincón,1940,Total_Combinado,1083
-Río Grande,1940,Total_Combinado,1913
-Río Piedras,1940,Total_Combinado,6538
-Sabana Grande,1940,Total_Combinado,2345
-Salinas,1940,Total_Combinado,2016
-San Germán,1940,Total_Combinado,3044
-San Juan,1940,Total_Combinado,19221
-San Lorenzo,1940,Total_Combinado,3193
-San Sebastián,1940,Total_Combinado,3641
-Santa Isabel,1940,Total_Combinado,1102
-Toa Alta,1940,Total_Combinado,1830
-Toa Baja,1940,Total_Combinado,2096
-Trujillo Alto,1940,Total_Combinado,1236
-Utuado,1940,Total_Combinado,1906
-Vega Alta,1940,Total_Combinado,2336
-Vega Baja,1940,Total_Combinado,3438
-Vieques,1940,Total_Combinado,1703
-Villalba,1940,Total_Combinado,1559
-Yabucoa,1940,Total_Combinado,2954
-Yauco,1940,Total_Combinado,5933
-"Total,Puerto Rico",1940,Total_Combinado,222423
-Adjuntas,1944,Total_Combinado,2487
-Aguada,1944,Total_Combinado,1165
-Aguadilla,1944,Total_Combinado,4570
-Aguas Buenas,1944,Total_Combinado,2225
-Aibonito,1944,Total_Combinado,1455
-Añasco,1944,Total_Combinado,2391
-Arecibo,1944,Total_Combinado,8954
-Arroyo,1944,Total_Combinado,1997
-Barceloneta,1944,Total_Combinado,1952
-Barranquitas,1944,Total_Combinado,270
-Bayamón,1944,Total_Combinado,4899
-Cabo Rojo,1944,Total_Combinado,2053
-Caguas,1944,Total_Combinado,4678
-Camuy,1944,Total_Combinado,2960
-Carolina,1944,Total_Combinado,1996
-Cataño,1944,Total_Combinado,1706
-Cayey,1944,Total_Combinado,3669
-Ceiba,1944,Total_Combinado,792
-Ciales,1944,Total_Combinado,2184
-Cidra,1944,Total_Combinado,1627
-Coamo,1944,Total_Combinado,2176
-Comerío,1944,Total_Combinado,997
-Corozal,1944,Total_Combinado,2502
-Culebra,1944,Total_Combinado,184
-Dorado,1944,Total_Combinado,1154
-Fajardo,1944,Total_Combinado,3087
-Guánica,1944,Total_Combinado,1086
-Guayama,1944,Total_Combinado,2113
-Guayanilla,1944,Total_Combinado,2137
-Guaynabo,1944,Total_Combinado,2593
-Gurabo,1944,Total_Combinado,1814
-Hatillo,1944,Total_Combinado,2196
-Hormigueros,1944,Total_Combinado,885
-Humacao,1944,Total_Combinado,3435
-Isabela,1944,Total_Combinado,3962
-Jayuya,1944,Total_Combinado,1010
-Juana Díaz,1944,Total_Combinado,2618
-Juncos,1944,Total_Combinado,3213
-Lajas,1944,Total_Combinado,853
-Lares,1944,Total_Combinado,2769
-Las Marías,1944,Total_Combinado,447
-Las Piedras,1944,Total_Combinado,1957
-Loíza,1944,Total_Combinado,2726
-Luquillo,1944,Total_Combinado,642
-Manatí,1944,Total_Combinado,3311
-Maricao,1944,Total_Combinado,358
-Maunabo,1944,Total_Combinado,667
-Mayagüez,1944,Total_Combinado,8211
-Moca,1944,Total_Combinado,2062
-Morovis,1944,Total_Combinado,2831
-Naguabo,1944,Total_Combinado,1870
-Naranjito,1944,Total_Combinado,1576
-Orocovis,1944,Total_Combinado,2111
-Patillas,1944,Total_Combinado,2079
-Peñuelas,1944,Total_Combinado,2508
-Ponce,1944,Total_Combinado,8645
-Quebradillas,1944,Total_Combinado,1891
-Rincón,1944,Total_Combinado,572
-Río Grande,1944,Total_Combinado,1487
-Río Piedras,1944,Total_Combinado,7631
-Sabana Grande,1944,Total_Combinado,1787
-Salinas,1944,Total_Combinado,1414
-San Germán,1944,Total_Combinado,3058
-San Juan,1944,Total_Combinado,23615
-San Lorenzo,1944,Total_Combinado,4779
-San Sebastián,1944,Total_Combinado,3426
-Santa Isabel,1944,Total_Combinado,1106
-Toa Alta,1944,Total_Combinado,1515
-Toa Baja,1944,Total_Combinado,1310
-Trujillo Alto,1944,Total_Combinado,1739
-Utuado,1944,Total_Combinado,3471
-Vega Alta,1944,Total_Combinado,1850
-Vega Baja,1944,Total_Combinado,2390
-Vieques,1944,Total_Combinado,1801
-Villalba,1944,Total_Combinado,842
-Yabucoa,1944,Total_Combinado,2589
-Yauco,1944,Total_Combinado,3428
-"Total,Puerto Rico",1944,Total_Combinado,208516
 Adjuntas,1932,Partido_Liberal_Puertorriqueño,2113
 Aguada,1932,Partido_Liberal_Puertorriqueño,1525
 Aguadilla,1932,Partido_Liberal_Puertorriqueño,2531
@@ -778,7 +461,6 @@ Vieques,1932,Partido_Liberal_Puertorriqueño,1383
 Villalba,1932,Partido_Liberal_Puertorriqueño,1002
 Yabucoa,1932,Partido_Liberal_Puertorriqueño,2044
 Yauco,1932,Partido_Liberal_Puertorriqueño,3012
-"Total,Puerto Rico",1932,Partido_Liberal_Puertorriqueño,170168
 Adjuntas,1936,Partido_Liberal_Puertorriqueño,3523
 Aguada,1936,Partido_Liberal_Puertorriqueño,2157
 Aguadilla,1936,Partido_Liberal_Puertorriqueño,3259
@@ -856,7 +538,6 @@ Vieques,1936,Partido_Liberal_Puertorriqueño,1858
 Villalba,1936,Partido_Liberal_Puertorriqueño,1694
 Yabucoa,1936,Partido_Liberal_Puertorriqueño,3792
 Yauco,1936,Partido_Liberal_Puertorriqueño,4901
-"Total,Puerto Rico",1936,Partido_Liberal_Puertorriqueño,252467
 Adjuntas,1944,Partido_Liberal_Puertorriqueño,126
 Aguada,1944,Partido_Liberal_Puertorriqueño,84
 Aguadilla,1944,Partido_Liberal_Puertorriqueño,164
@@ -934,7 +615,6 @@ Vieques,1944,Partido_Liberal_Puertorriqueño,399
 Villalba,1944,Partido_Liberal_Puertorriqueño,37
 Yabucoa,1944,Partido_Liberal_Puertorriqueño,107
 Yauco,1944,Partido_Liberal_Puertorriqueño,187
-"Total,Puerto Rico",1944,Partido_Liberal_Puertorriqueño,38630
 Adjuntas,1932,Partido_Nacionalistade _Puerto_Rico,6
 Aguada,1932,Partido_Nacionalistade _Puerto_Rico,6
 Aguadilla,1932,Partido_Nacionalistade _Puerto_Rico,37
@@ -1012,7 +692,6 @@ Vieques,1932,Partido_Nacionalistade _Puerto_Rico,13
 Villalba,1932,Partido_Nacionalistade _Puerto_Rico,10
 Yabucoa,1932,Partido_Nacionalistade _Puerto_Rico,184
 Yauco,1932,Partido_Nacionalistade _Puerto_Rico,27
-"Total,Puerto Rico",1932,Partido_Nacionalistade _Puerto_Rico,5257
 Adjuntas,1932,Candidatos_Independientes,0
 Aguada,1932,Candidatos_Independientes,1
 Aguadilla,1932,Candidatos_Independientes,1
@@ -1090,7 +769,6 @@ Vieques,1932,Candidatos_Independientes,0
 Villalba,1932,Candidatos_Independientes,0
 Yabucoa,1932,Candidatos_Independientes,0
 Yauco,1932,Candidatos_Independientes,0
-"Total,Puerto Rico",1932,Candidatos_Independientes,65
 Adjuntas,1936,Partido_Unión_Republicana,1581
 Aguada,1936,Partido_Unión_Republicana,1143
 Aguadilla,1936,Partido_Unión_Republicana,5438
@@ -1168,7 +846,6 @@ Vieques,1936,Partido_Unión_Republicana,228
 Villalba,1936,Partido_Unión_Republicana,1160
 Yabucoa,1936,Partido_Unión_Republicana,739
 Yauco,1936,Partido_Unión_Republicana,4956
-"Total,Puerto Rico",1936,Partido_Unión_Republicana,152739
 Adjuntas,1940,Partido_Unión_Republicana,2029
 Aguada,1940,Partido_Unión_Republicana,396
 Aguadilla,1940,Partido_Unión_Republicana,4893
@@ -1246,7 +923,6 @@ Vieques,1940,Partido_Unión_Republicana,271
 Villalba,1940,Partido_Unión_Republicana,1190
 Yabucoa,1940,Partido_Unión_Republicana,92
 Yauco,1940,Partido_Unión_Republicana,4370
-"Total,Puerto Rico",1940,Partido_Unión_Republicana,134582
 Adjuntas,1940,Partido_Popular_Democrático,3100
 Aguada,1940,Partido_Popular_Democrático,1861
 Aguadilla,1940,Partido_Popular_Democrático,2061
@@ -1324,7 +1000,6 @@ Vieques,1940,Partido_Popular_Democrático,598
 Villalba,1940,Partido_Popular_Democrático,1970
 Yabucoa,1940,Partido_Popular_Democrático,4293
 Yauco,1940,Partido_Popular_Democrático,4221
-"Total,Puerto Rico",1940,Partido_Popular_Democrático,214857
 Adjuntas,1944,Partido_Popular_Democrático,4211
 Aguada,1944,Partido_Popular_Democrático,4121
 Aguadilla,1944,Partido_Popular_Democrático,6377
@@ -1402,7 +1077,6 @@ Vieques,1944,Partido_Popular_Democrático,1508
 Villalba,1944,Partido_Popular_Democrático,2761
 Yabucoa,1944,Partido_Popular_Democrático,7258
 Yauco,1944,Partido_Popular_Democrático,7427
-"Total,Puerto Rico",1944,Partido_Popular_Democrático,383280
 Adjuntas,1940,Unificación_Puertorriqueña_Tripartita,348
 Aguada,1940,Unificación_Puertorriqueña_Tripartita,1293
 Aguadilla,1940,Unificación_Puertorriqueña_Tripartita,1737
@@ -1480,7 +1154,6 @@ Vieques,1940,Unificación_Puertorriqueña_Tripartita,1519
 Villalba,1940,Unificación_Puertorriqueña_Tripartita,39
 Yabucoa,1940,Unificación_Puertorriqueña_Tripartita,326
 Yauco,1940,Unificación_Puertorriqueña_Tripartita,876
-"Total,Puerto Rico",1940,Unificación_Puertorriqueña_Tripartita,130299
 Adjuntas,1940,Partido_Agrícola_Purode _Puerto_Rico,9
 Aguada,1940,Partido_Agrícola_Purode _Puerto_Rico,15
 Aguadilla,1940,Partido_Agrícola_Purode _Puerto_Rico,35
@@ -1558,85 +1231,6 @@ Vieques,1940,Partido_Agrícola_Purode _Puerto_Rico,4
 Villalba,1940,Partido_Agrícola_Purode _Puerto_Rico,18
 Yabucoa,1940,Partido_Agrícola_Purode _Puerto_Rico,20
 Yauco,1940,Partido_Agrícola_Purode _Puerto_Rico,21
-"Total,Puerto Rico",1940,Partido_Agrícola_Purode _Puerto_Rico,1272
-Adjuntas,1940,Total_Combinado_1,357
-Aguada,1940,Total_Combinado_1,1308
-Aguadilla,1940,Total_Combinado_1,1772
-Aguas Buenas,1940,Total_Combinado_1,1715
-Aibonito,1940,Total_Combinado_1,753
-Añasco,1940,Total_Combinado_1,1285
-Arecibo,1940,Total_Combinado_1,6106
-Arroyo,1940,Total_Combinado_1,1692
-Barceloneta,1940,Total_Combinado_1,235
-Barranquitas,1940,Total_Combinado_1,703
-Bayamón,1940,Total_Combinado_1,1264
-Cabo Rojo,1940,Total_Combinado_1,2979
-Caguas,1940,Total_Combinado_1,6099
-Camuy,1940,Total_Combinado_1,1722
-Carolina,1940,Total_Combinado_1,1933
-Cataño,1940,Total_Combinado_1,1391
-Cayey,1940,Total_Combinado_1,1551
-Ceiba,1940,Total_Combinado_1,757
-Ciales,1940,Total_Combinado_1,563
-Cidra,1940,Total_Combinado_1,1441
-Coamo,1940,Total_Combinado_1,143
-Comerío,1940,Total_Combinado_1,1274
-Corozal,1940,Total_Combinado_1,692
-Culebra,1940,Total_Combinado_1,160
-Dorado,1940,Total_Combinado_1,496
-Fajardo,1940,Total_Combinado_1,2147
-Guánica,1940,Total_Combinado_1,222
-Guayama,1940,Total_Combinado_1,3052
-Guayanilla,1940,Total_Combinado_1,3049
-Guaynabo,1940,Total_Combinado_1,1923
-Gurabo,1940,Total_Combinado_1,2415
-Hatillo,1940,Total_Combinado_1,2039
-Hormigueros,1940,Total_Combinado_1,922
-Humacao,1940,Total_Combinado_1,3990
-Isabela,1940,Total_Combinado_1,500
-Jayuya,1940,Total_Combinado_1,339
-Juana Díaz,1940,Total_Combinado_1,211
-Juncos,1940,Total_Combinado_1,2297
-Lajas,1940,Total_Combinado_1,1141
-Lares,1940,Total_Combinado_1,2677
-Las Marías,1940,Total_Combinado_1,416
-Las Piedras,1940,Total_Combinado_1,1397
-Loíza,1940,Total_Combinado_1,1246
-Luquillo,1940,Total_Combinado_1,397
-Manatí,1940,Total_Combinado_1,302
-Maricao,1940,Total_Combinado_1,468
-Maunabo,1940,Total_Combinado_1,873
-Mayagüez,1940,Total_Combinado_1,5165
-Moca,1940,Total_Combinado_1,1292
-Morovis,1940,Total_Combinado_1,247
-Naguabo,1940,Total_Combinado_1,469
-Naranjito,1940,Total_Combinado_1,931
-Orocovis,1940,Total_Combinado_1,196
-Patillas,1940,Total_Combinado_1,727
-Peñuelas,1940,Total_Combinado_1,728
-Ponce,1940,Total_Combinado_1,2300
-Quebradillas,1940,Total_Combinado_1,1791
-Rincón,1940,Total_Combinado_1,1189
-Río Grande,1940,Total_Combinado_1,574
-Río Piedras,1940,Total_Combinado_1,4863
-Sabana Grande,1940,Total_Combinado_1,1166
-Salinas,1940,Total_Combinado_1,998
-San Germán,1940,Total_Combinado_1,2454
-San Juan,1940,Total_Combinado_1,18552
-San Lorenzo,1940,Total_Combinado_1,3546
-San Sebastián,1940,Total_Combinado_1,1399
-Santa Isabel,1940,Total_Combinado_1,1718
-Toa Alta,1940,Total_Combinado_1,951
-Toa Baja,1940,Total_Combinado_1,449
-Trujillo Alto,1940,Total_Combinado_1,1259
-Utuado,1940,Total_Combinado_1,4191
-Vega Alta,1940,Total_Combinado_1,403
-Vega Baja,1940,Total_Combinado_1,776
-Vieques,1940,Total_Combinado_1,1523
-Villalba,1940,Total_Combinado_1,57
-Yabucoa,1940,Total_Combinado_1,346
-Yauco,1940,Total_Combinado_1,897
-"Total,Puerto Rico",1940,Total_Combinado_1,131571
 Adjuntas,1944,Partido_Unión_Republicana_Progresista,1671
 Aguada,1944,Partido_Unión_Republicana_Progresista,498
 Aguadilla,1944,Partido_Unión_Republicana_Progresista,3800
@@ -1714,7 +1308,6 @@ Vieques,1944,Partido_Unión_Republicana_Progresista,236
 Villalba,1944,Partido_Unión_Republicana_Progresista,596
 Yabucoa,1944,Partido_Unión_Republicana_Progresista,280
 Yauco,1944,Partido_Unión_Republicana_Progresista,2304
-"Total,Puerto Rico",1944,Partido_Unión_Republicana_Progresista,101779
 Adjuntas,1944,Partido_Auténtico,8
 Aguada,1944,Partido_Auténtico,2
 Aguadilla,1944,Partido_Auténtico,0
@@ -1792,7 +1385,6 @@ Vieques,1944,Partido_Auténtico,0
 Villalba,1944,Partido_Auténtico,2
 Yabucoa,1944,Partido_Auténtico,0
 Yauco,1944,Partido_Auténtico,6
-"Total,Puerto Rico",1944,Partido_Auténtico,159
 Adjuntas,1944,Partido_Proletario,0
 Aguada,1944,Partido_Proletario,0
 Aguadilla,1944,Partido_Proletario,0
@@ -1870,7 +1462,6 @@ Vieques,1944,Partido_Proletario,0
 Villalba,1944,Partido_Proletario,1
 Yabucoa,1944,Partido_Proletario,0
 Yauco,1944,Partido_Proletario,0
-"Total,Puerto Rico",1944,Partido_Proletario,23
 Adjuntas,1980,Partido_Nuevo_Progresista,4962
 Aguada,1980,Partido_Nuevo_Progresista,7638
 Aguadilla,1980,Partido_Nuevo_Progresista,13001
@@ -1949,7 +1540,6 @@ Vieques,1980,Partido_Nuevo_Progresista,1749
 Villalba,1980,Partido_Nuevo_Progresista,4931
 Yabucoa,1980,Partido_Nuevo_Progresista,8191
 Yauco,1980,Partido_Nuevo_Progresista,8457
-"Total,Puerto Rico",1980,Partido_Nuevo_Progresista,760580
 Adjuntas,1984,Partido_Nuevo_Progresista,4919
 Aguada,1984,Partido_Nuevo_Progresista,8414
 Aguadilla,1984,Partido_Nuevo_Progresista,13365
@@ -2029,7 +1619,6 @@ Villalba,1984,Partido_Nuevo_Progresista,5733
 Yabucoa,1984,Partido_Nuevo_Progresista,8152
 Yauco,1984,Partido_Nuevo_Progresista,9074
 Registro Federal,1984,Partido_Nuevo_Progresista,342
-"Total,Puerto Rico",1984,Partido_Nuevo_Progresista,769951
 Adjuntas,1988,Partido_Nuevo_Progresista,5466
 Aguada,1988,Partido_Nuevo_Progresista,9401
 Aguadilla,1988,Partido_Nuevo_Progresista,14642
@@ -2109,7 +1698,6 @@ Villalba,1988,Partido_Nuevo_Progresista,6356
 Yabucoa,1988,Partido_Nuevo_Progresista,9108
 Yauco,1988,Partido_Nuevo_Progresista,9088
 Registro Federal,1988,Partido_Nuevo_Progresista,143
-"Total,Puerto Rico",1988,Partido_Nuevo_Progresista,824879
 Adjuntas,1992,Partido_Nuevo_Progresista,5654
 Aguada,1992,Partido_Nuevo_Progresista,10348
 Aguadilla,1992,Partido_Nuevo_Progresista,15575
@@ -2188,7 +1776,6 @@ Vieques,1992,Partido_Nuevo_Progresista,2831
 Villalba,1992,Partido_Nuevo_Progresista,6969
 Yabucoa,1992,Partido_Nuevo_Progresista,10407
 Yauco,1992,Partido_Nuevo_Progresista,10333
-"Total,Puerto Rico",1992,Partido_Nuevo_Progresista,904067
 Adjuntas,1996,Partido_Nuevo_Progresista,5853
 Aguada,1996,Partido_Nuevo_Progresista,11398
 Aguadilla,1996,Partido_Nuevo_Progresista,17007
@@ -2267,7 +1854,6 @@ Vieques,1996,Partido_Nuevo_Progresista,2634
 Villalba,1996,Partido_Nuevo_Progresista,7809
 Yabucoa,1996,Partido_Nuevo_Progresista,10950
 Yauco,1996,Partido_Nuevo_Progresista,11407
-"Total,Puerto Rico",1996,Partido_Nuevo_Progresista,973654
 Adjuntas,2000,Partido_Nuevo_Progresista,5713
 Aguada,2000,Partido_Nuevo_Progresista,10835
 Aguadilla,2000,Partido_Nuevo_Progresista,15728
@@ -2346,7 +1932,6 @@ Vieques,2000,Partido_Nuevo_Progresista,1760
 Villalba,2000,Partido_Nuevo_Progresista,7507
 Yabucoa,2000,Partido_Nuevo_Progresista,10819
 Yauco,2000,Partido_Nuevo_Progresista,10789
-"Total,Puerto Rico",2000,Partido_Nuevo_Progresista,905690
 Adjuntas,1980,Partido_Popular_Democrático,5120
 Aguada,1980,Partido_Popular_Democrático,7130
 Aguadilla,1980,Partido_Popular_Democrático,12665
@@ -2425,7 +2010,6 @@ Vieques,1980,Partido_Popular_Democrático,2287
 Villalba,1980,Partido_Popular_Democrático,4721
 Yabucoa,1980,Partido_Popular_Democrático,8776
 Yauco,1980,Partido_Popular_Democrático,9748
-"Total,Puerto Rico",1980,Partido_Popular_Democrático,749983
 Adjuntas,1984,Partido_Popular_Democrático,5386
 Aguada,1984,Partido_Popular_Democrático,8092
 Aguadilla,1984,Partido_Popular_Democrático,13306
@@ -2505,7 +2089,6 @@ Villalba,1984,Partido_Popular_Democrático,5443
 Yabucoa,1984,Partido_Popular_Democrático,9571
 Yauco,1984,Partido_Popular_Democrático,10752
 Registro Federal,1984,Partido_Popular_Democrático,258
-"Total,Puerto Rico",1984,Partido_Popular_Democrático,827380
 Adjuntas,1988,Partido_Popular_Democrático,5414
 Aguada,1988,Partido_Popular_Democrático,8079
 Aguadilla,1988,Partido_Popular_Democrático,13639
@@ -2585,7 +2168,6 @@ Villalba,1988,Partido_Popular_Democrático,5936
 Yabucoa,1988,Partido_Popular_Democrático,9566
 Yauco,1988,Partido_Popular_Democrático,11213
 Registro Federal,1988,Partido_Popular_Democrático,85
-"Total,Puerto Rico",1988,Partido_Popular_Democrático,867532
 Adjuntas,1996,Partido_Popular_Democrático,5502
 Aguada,1996,Partido_Popular_Democrático,9724
 Aguadilla,1996,Partido_Popular_Democrático,14080
@@ -2664,7 +2246,6 @@ Vieques,1996,Partido_Popular_Democrático,2577
 Villalba,1996,Partido_Popular_Democrático,6127
 Yabucoa,1996,Partido_Popular_Democrático,10703
 Yauco,1996,Partido_Popular_Democrático,11591
-"Total,Puerto Rico",1996,Partido_Popular_Democrático,904048
 Adjuntas,2000,Partido_Popular_Democrático,5756
 Aguada,2000,Partido_Popular_Democrático,11369
 Aguadilla,2000,Partido_Popular_Democrático,14997
@@ -2743,7 +2324,6 @@ Vieques,2000,Partido_Popular_Democrático,3073
 Villalba,2000,Partido_Popular_Democrático,6806
 Yabucoa,2000,Partido_Popular_Democrático,11005
 Yauco,2000,Partido_Popular_Democrático,12341
-"Total,Puerto Rico",2000,Partido_Popular_Democrático,983488
 Adjuntas,1980,Partido_Independentista_Puertorriqueño,247
 Aguada,1980,Partido_Independentista_Puertorriqueño,620
 Aguadilla,1980,Partido_Independentista_Puertorriqueño,983
@@ -2822,7 +2402,6 @@ Vieques,1980,Partido_Independentista_Puertorriqueño,289
 Villalba,1980,Partido_Independentista_Puertorriqueño,218
 Yabucoa,1980,Partido_Independentista_Puertorriqueño,594
 Yauco,1980,Partido_Independentista_Puertorriqueño,925
-"Total,Puerto Rico",1980,Partido_Independentista_Puertorriqueño,83908
 Adjuntas,1984,Partido_Independentista_Puertorriqueño,205
 Aguada,1984,Partido_Independentista_Puertorriqueño,572
 Aguadilla,1984,Partido_Independentista_Puertorriqueño,750
@@ -2902,7 +2481,6 @@ Villalba,1984,Partido_Independentista_Puertorriqueño,218
 Yabucoa,1984,Partido_Independentista_Puertorriqueño,490
 Yauco,1984,Partido_Independentista_Puertorriqueño,759
 Registro Federal,1984,Partido_Independentista_Puertorriqueño,25
-"Total,Puerto Rico",1984,Partido_Independentista_Puertorriqueño,64001
 Adjuntas,1988,Partido_Independentista_Puertorriqueño,232
 Aguada,1988,Partido_Independentista_Puertorriqueño,671
 Aguadilla,1988,Partido_Independentista_Puertorriqueño,942
@@ -2982,7 +2560,6 @@ Villalba,1988,Partido_Independentista_Puertorriqueño,230
 Yabucoa,1988,Partido_Independentista_Puertorriqueño,654
 Yauco,1988,Partido_Independentista_Puertorriqueño,961
 Registro Federal,1988,Partido_Independentista_Puertorriqueño,17
-"Total,Puerto Rico",1988,Partido_Independentista_Puertorriqueño,79557
 Adjuntas,1992,Partido_Independentista_Puertorriqueño,199
 Aguada,1992,Partido_Independentista_Puertorriqueño,576
 Aguadilla,1992,Partido_Independentista_Puertorriqueño,726
@@ -3061,7 +2638,6 @@ Vieques,1992,Partido_Independentista_Puertorriqueño,261
 Villalba,1992,Partido_Independentista_Puertorriqueño,210
 Yabucoa,1992,Partido_Independentista_Puertorriqueño,544
 Yauco,1992,Partido_Independentista_Puertorriqueño,820
-"Total,Puerto Rico",1992,Partido_Independentista_Puertorriqueño,63472
 Adjuntas,1996,Partido_Independentista_Puertorriqueño,192
 Aguada,1996,Partido_Independentista_Puertorriqueño,674
 Aguadilla,1996,Partido_Independentista_Puertorriqueño,849
@@ -3140,7 +2716,6 @@ Vieques,1996,Partido_Independentista_Puertorriqueño,216
 Villalba,1996,Partido_Independentista_Puertorriqueño,237
 Yabucoa,1996,Partido_Independentista_Puertorriqueño,579
 Yauco,1996,Partido_Independentista_Puertorriqueño,897
-"Total,Puerto Rico",1996,Partido_Independentista_Puertorriqueño,68828
 Adjuntas,2000,Partido_Independentista_Puertorriqueño,282
 Aguada,2000,Partido_Independentista_Puertorriqueño,912
 Aguadilla,2000,Partido_Independentista_Puertorriqueño,1138
@@ -3219,7 +2794,6 @@ Vieques,2000,Partido_Independentista_Puertorriqueño,511
 Villalba,2000,Partido_Independentista_Puertorriqueño,395
 Yabucoa,2000,Partido_Independentista_Puertorriqueño,798
 Yauco,2000,Partido_Independentista_Puertorriqueño,1174
-"Total,Puerto Rico",2000,Partido_Independentista_Puertorriqueño,95067
 Adjuntas,1984,Partido_Renovación_Puertorriqueña,222
 Aguada,1984,Partido_Renovación_Puertorriqueña,357
 Aguadilla,1984,Partido_Renovación_Puertorriqueña,703
@@ -3299,7 +2873,6 @@ Villalba,1984,Partido_Renovación_Puertorriqueña,192
 Yabucoa,1984,Partido_Renovación_Puertorriqueña,244
 Yauco,1984,Partido_Renovación_Puertorriqueña,470
 Registro Federal,1984,Partido_Renovación_Puertorriqueña,118
-"Total,Puerto Rico",1984,Partido_Renovación_Puertorriqueña,39319
 Adjuntas,1992,Tito_Colorado,5238
 Aguada,1992,Tito_Colorado,8925
 Aguadilla,1992,Tito_Colorado,13728
@@ -3378,7 +2951,6 @@ Vieques,1992,Tito_Colorado,2281
 Villalba,1992,Tito_Colorado,6001
 Yabucoa,1992,Tito_Colorado,10221
 Yauco,1992,Tito_Colorado,11357
-"Total,Puerto Rico",1992,Tito_Colorado,891176
 Adjuntas,1992,Otros,2
 Aguada,1992,Otros,68
 Aguadilla,1992,Otros,68
@@ -3457,7 +3029,6 @@ Vieques,1992,Otros,0
 Villalba,1992,Otros,2
 Yabucoa,1992,Otros,2
 Yauco,1992,Otros,15
-"Total,Puerto Rico",1992,Otros,1548
 Adjuntas,1996,Otros,1
 Aguada,1996,Otros,2
 Aguadilla,1996,Otros,3
@@ -3536,7 +3107,6 @@ Vieques,1996,Otros,4
 Villalba,1996,Otros,2
 Yabucoa,1996,Otros,6
 Yauco,1996,Otros,8
-"Total,Puerto Rico",1996,Otros,440
 Adjuntas,2000,Otros,4
 Aguada,2000,Otros,20
 Aguadilla,2000,Otros,8
@@ -3615,7 +3185,6 @@ Vieques,2000,Otros,2
 Villalba,2000,Otros,1
 Yabucoa,2000,Otros,1
 Yauco,2000,Otros,6
-"Total,Puerto Rico",2000,Otros,571
 Adjuntas,1996,Blanco,43
 Aguada,1996,Blanco,71
 Aguadilla,1996,Blanco,81
@@ -3694,7 +3263,6 @@ Vieques,1996,Blanco,24
 Villalba,1996,Blanco,46
 Yabucoa,1996,Blanco,61
 Yauco,1996,Blanco,62
-"Total,Puerto Rico",1996,Blanco,4887
 Adjuntas,2000,Blanco,39
 Aguada,2000,Blanco,80
 Aguadilla,2000,Blanco,69
@@ -3773,7 +3341,6 @@ Vieques,2000,Blanco,17
 Villalba,2000,Blanco,65
 Yabucoa,2000,Blanco,41
 Yauco,2000,Blanco,62
-"Total,Puerto Rico",2000,Blanco,4103
 Adjuntas,1996,Nulo,26
 Aguada,1996,Nulo,37
 Aguadilla,1996,Nulo,75
@@ -3852,7 +3419,6 @@ Vieques,1996,Nulo,17
 Villalba,1996,Nulo,29
 Yabucoa,1996,Nulo,71
 Yauco,1996,Nulo,64
-"Total,Puerto Rico",1996,Nulo,4522
 Adjuntas,2000,Nulo,20
 Aguada,2000,Nulo,42
 Aguadilla,2000,Nulo,82
@@ -3931,4 +3497,3 @@ Vieques,2000,Nulo,27
 Villalba,2000,Nulo,21
 Yabucoa,2000,Nulo,56
 Yauco,2000,Nulo,67
-"Total,Puerto Rico",2000,Nulo,4564
