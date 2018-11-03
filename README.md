@@ -1,6 +1,6 @@
 # PR Elections Historical Data
 
-## English Version
+## English
 
 This repo contains all the the historical data from the Puerto Rico's Electoral Commission webpage to make it accesible in a way that can be combined with Census data, as well as other socio-economic indicators to better explain political patterns in Puerto Rico. The scraping was done using Python and Beautiful Soup and the data cleaning and wrangling was done using R and the tidyverse. 
 
@@ -16,13 +16,11 @@ This repo contains all the the historical data from the Puerto Rico's Electoral 
     
 - `doc` contains the two blog posts (English and Spanish) that were published in my webpage: www.bayesianpolitik.me 
 
-## Version en Español
+## Español
 
 Este repositorio tiene todos los datos catalogados como históricos en la página de la Comisión Estatal de Elecciones de Puerto Rico para hacerlos accesible en un formato que pueda ser combinado con datos del Censo, así como otros indicadores socio-económicos para entender mejor los patrones políticos en Puerto Rico. La descarga de los datos y el scraping fue hecho con Python y Beautiful Soup, y la limpieza y estructuracion de los datos fue hecha con R y el tidyverse.
 
 ### Estructura del Repositorio
-
-### Repo Structure
 
 - `data/` contiene dos sub-folders:
     - `temporary_data` tiene los datos anuales descargados de Python.
