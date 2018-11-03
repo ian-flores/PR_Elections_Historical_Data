@@ -1,5 +1,5 @@
 ---
-output: html_document
+output: github_document
 editor_options: 
   chunk_output_type: console
 ---
@@ -14,7 +14,7 @@ suppressPackageStartupMessages(library(scales))
 
 ## Contexto
 
-#### Descargue todos los datos catalogados como históricos en la página de la Comisión Estatal de Elecciones de Puerto Rico para hacerlos accesible en un formato que pueda ser combinado con datos del Censo, así como otros indicadores socio-económicos para entender mejor los patrones políticos en Puerto Rico. En el próximo mes estare añadiendo los datos de las elecciones de 2004, 2008, 2012, y 2016 pero con mayor detalle espacial que por municipios. Pude corregir los nombres de los partidos que reconocí, sin embargo a los otros les deje el código asignado por la CEE. Si los conoce, y puede proveer una referencia para los mismos, por favor envieme un correo electronico a: iflores.siaca@gmail.com
+Descargue todos los datos catalogados como históricos en la página de la Comisión Estatal de Elecciones de Puerto Rico para hacerlos accesible en un formato que pueda ser combinado con datos del Censo, así como otros indicadores socio-económicos para entender mejor los patrones políticos en Puerto Rico. En el próximo mes estare añadiendo los datos de las elecciones de 2004, 2008, 2012, y 2016 pero con mayor detalle espacial que por municipios. Pude corregir los nombres de los partidos que reconocí, sin embargo a los otros les deje el código asignado por la CEE. Si los conoce, y puede proveer una referencia para los mismos, por favor envieme un correo electronico a: iflores.siaca@gmail.com
 
 > El repositorio de GitHub que contiene todo el código de este proyecto esta disponible aqui: [https://github.com/ian-flores/PR_Elections_Historical_Data](https://github.com/ian-flores/PR_Elections_Historical_Data)
 
@@ -49,11 +49,13 @@ data %>%
          subtitle = 'Datos de 1948-2000',
          caption = 'Solo se visualizan partidos con mas de 75,000 votos cada año.') +
     scale_y_continuous(labels = comma_format())
+
 ```
 
 #### Datos a nivel municipal
 
-```{r}
+```{r, eval=FALSE}
+# Save Manually
 datatable(data = data, extensions = 'Buttons', 
           options = list(dom = 'Btp', buttons = c('csv', 'pdf')), 
           filter = 'top', rownames = FALSE, class = 'hover row-border', 
@@ -87,7 +89,7 @@ data %>%
 
 #### Datos a nivel municipal
 
-```{r}
+```{r, eval=FALSE}
 datatable(data = data, extensions = 'Buttons', 
           options = list(dom = 'Btp', buttons = c('csv', 'pdf')), 
           filter = 'top', rownames = FALSE, class = 'hover row-border', 
@@ -120,7 +122,7 @@ data %>%
 
 #### Datos a nivel municipal
 
-```{r}
+```{r, eval=FALSE}
 datatable(data = data, extensions = 'Buttons', 
           options = list(dom = 'Btp', buttons = c('csv', 'pdf')), 
           filter = 'top', rownames = FALSE, class = 'hover row-border', 

@@ -1,5 +1,5 @@
 ---
-output: html_document
+output: github_document
 editor_options: 
   chunk_output_type: console
 ---
@@ -14,7 +14,7 @@ suppressPackageStartupMessages(library(scales))
 
 ## Context
 
-#### I scraped all the historical data from the Puerto Rico's Electoral Commission webpage to make it accesible in a way that can be combined with Census data, as well as other socio-economic indicators to better explain political patterns in Puerto Rico. In the next month I will add as well the elections of 2004, 2008, 2012, 2016, but with a more granual level than municipalities. I parsed the names of the parties I knew, but the other ones stayed with the code assigned by the CEE, if you know them, and can provide a reference please send me an email at: iflores.siaca@gmail.com
+I scraped all the historical data from the Puerto Rico's Electoral Commission webpage to make it accesible in a way that can be combined with Census data, as well as other socio-economic indicators to better explain political patterns in Puerto Rico. In the next month I will add as well the elections of 2004, 2008, 2012, 2016, but with a more granual level than municipalities. I parsed the names of the parties I knew, but the other ones stayed with the code assigned by the CEE, if you know them, and can provide a reference please send me an email at: iflores.siaca@gmail.com
 
 > The GitHub repository with all the code for this project is available here: [https://github.com/ian-flores/PR_Elections_Historical_Data](https://github.com/ian-flores/PR_Elections_Historical_Data)
 
@@ -53,7 +53,7 @@ data %>%
 
 #### Municipality-level data
 
-```{r}
+```{r, eval=FALSE}
 datatable(data = data, extensions = 'Buttons', 
           options = list(dom = 'Btp', buttons = c('csv', 'excel', 'pdf')), 
           filter = 'top', rownames = FALSE, class = 'hover row-border', 
@@ -87,7 +87,7 @@ data %>%
 
 #### Municipality-level data
 
-```{r}
+```{r, eval=FALSE}
 datatable(data = data, extensions = 'Buttons', 
           options = list(dom = 'Btp', buttons = c('csv', 'excel', 'pdf')), 
           filter = 'top', rownames = FALSE, class = 'hover row-border', 
@@ -120,7 +120,7 @@ data %>%
 
 #### Municipality-level data
 
-```{r}
+```{r, eval=FALSE}
 datatable(data = data, extensions = 'Buttons', 
           options = list(dom = 'Btp', buttons = c('csv', 'excel', 'pdf')), 
           filter = 'top', rownames = FALSE, class = 'hover row-border', 
