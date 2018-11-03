@@ -16,24 +16,18 @@ Descargue todos los datos catalogados como históricos en la página de la Comis
 
 ### Datos disponibles sobre Gobernador
 
-> Los datos estan disponibles para descarga en los botones en la parte inferior o para tener acceso a la version más actualizada: [Gobernador\_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/gobernador/gobernador.csv)
+> Los datos estan disponibles para descarga en: [Gobernador\_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/gobernador/gobernador.csv)
 
 ![](descripcion_files/figure-markdown_github/unnamed-chunk-1-1.png)
 
-#### Datos a nivel municipal
-
 ### Datos disponibles sobre Comisionado Residente
 
-> Los datos estan disponibles para descarga en los botones en la parte inferior o para tener acceso a la version más actualizada: [Commisionado\_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/comisionado_residente/comisionado_residente.csv)
+> Los datos estan disponibles para descarga en: [Commisionado\_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/comisionado_residente/comisionado_residente.csv)
 
 ![](descripcion_files/figure-markdown_github/unnamed-chunk-3-1.png)
 
-#### Datos a nivel municipal
-
 ### Datos disponibles sobre Alcaldes
 
-> Los datos estan disponibles para descarga en los botones en la parte inferior o para tener acceso a la version más actualizada: [Alcaldes\_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/alcalde/alcalde.csv)
+> Los datos estan disponibles para descarga en: [Alcaldes\_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/alcalde/alcalde.csv)
 
 ![](descripcion_files/figure-markdown_github/unnamed-chunk-5-1.png)
-
-#### Datos a nivel municipal

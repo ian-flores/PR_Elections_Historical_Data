@@ -28,7 +28,7 @@ Descargue todos los datos catalogados como históricos en la página de la Comis
 
 ### Datos disponibles sobre Gobernador
 
-> Los datos estan disponibles para descarga en los botones en la parte inferior o para tener acceso a la version más actualizada: [Gobernador_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/gobernador/gobernador.csv)
+> Los datos estan disponibles para descarga en: [Gobernador_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/gobernador/gobernador.csv)
 
 ```{r, include = TRUE, fig.width=10, fig.height=6}
 data <- read_csv('data/elecciones_generales/gobernador/gobernador.csv')
@@ -52,19 +52,13 @@ data %>%
 
 ```
 
-#### Datos a nivel municipal
-
 ```{r, eval=FALSE}
-# Save Manually
-datatable(data = data, extensions = 'Buttons', 
-          options = list(dom = 'Btp', buttons = c('csv', 'pdf')), 
-          filter = 'top', rownames = FALSE, class = 'hover row-border', 
-          colnames = c('Municipio', 'Año', 'Partido', 'Votos'))
+knitr::kable(head(data, n = 10), col.names = c('Municipio', 'Año', 'Partido', 'Votos'), format = 'markdown')
 ```
 
 ### Datos disponibles sobre Comisionado Residente
 
-> Los datos estan disponibles para descarga en los botones en la parte inferior o para tener acceso a la version más actualizada: [Commisionado_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/comisionado_residente/comisionado_residente.csv)
+> Los datos estan disponibles para descarga en: [Commisionado_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/comisionado_residente/comisionado_residente.csv)
 
 ```{r, include = TRUE, fig.width=10, fig.height=6}
 data <- read_csv('data/elecciones_generales/comisionado_residente/comisionado_residente.csv')
@@ -87,18 +81,13 @@ data %>%
     scale_y_continuous(labels = comma_format())
 ```
 
-#### Datos a nivel municipal
-
 ```{r, eval=FALSE}
-datatable(data = data, extensions = 'Buttons', 
-          options = list(dom = 'Btp', buttons = c('csv', 'pdf')), 
-          filter = 'top', rownames = FALSE, class = 'hover row-border', 
-          colnames = c('Municipio', 'Año', 'Partido', 'Votos'))
+knitr::kable(head(data, n = 10), col.names = c('Municipio', 'Año', 'Partido', 'Votos'), format = 'markdown')
 ```
 
 ### Datos disponibles sobre Alcaldes
 
-> Los datos estan disponibles para descarga en los botones en la parte inferior o para tener acceso a la version más actualizada: [Alcaldes_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/alcalde/alcalde.csv)
+> Los datos estan disponibles para descarga en: [Alcaldes_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/alcalde/alcalde.csv)
 
 ```{r, include = TRUE, fig.width=10, fig.height=6}
 data <- read_csv('data/elecciones_generales/alcalde/alcalde.csv')
@@ -120,11 +109,6 @@ data %>%
     scale_y_continuous(labels = comma_format())
 ```
 
-#### Datos a nivel municipal
-
 ```{r, eval=FALSE}
-datatable(data = data, extensions = 'Buttons', 
-          options = list(dom = 'Btp', buttons = c('csv', 'pdf')), 
-          filter = 'top', rownames = FALSE, class = 'hover row-border', 
-          colnames = c('Municipio', 'Año', 'Partido', 'Votos'))
+knitr::kable(head(data, n = 10), col.names = c('Municipio', 'Año', 'Partido', 'Votos'), format = 'html')
 ```

@@ -28,7 +28,7 @@ I scraped all the historical data from the Puerto Rico's Electoral Commission we
 
 ### Governor Data Available
 
-> This data is available to download pressing the buttons below or to have the most updated version: [Governor_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/gobernador/gobernador.csv)
+> This data is available to download here: [Governor_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/gobernador/gobernador.csv)
 
 ```{r, include = TRUE, fig.width=10, fig.height=6}
 data <- read_csv('data/elecciones_generales/gobernador/gobernador.csv')
@@ -51,18 +51,13 @@ data %>%
     scale_y_continuous(labels = comma_format())
 ```
 
-#### Municipality-level data
-
 ```{r, eval=FALSE}
-datatable(data = data, extensions = 'Buttons', 
-          options = list(dom = 'Btp', buttons = c('csv', 'excel', 'pdf')), 
-          filter = 'top', rownames = FALSE, class = 'hover row-border', 
-          colnames = c('Municipality', 'Year', 'Political Party', 'votes'))
+knitr::kable(head(data, n = 10), col.names = c('Municipality', 'Year', 'Political Party', 'votes'))
 ```
 
 ### Resident Commissioner Data Available
 
-> This data is available to download pressing the buttons below or to have the most updated version: [Commissioner_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/comisionado_residente/comisionado_residente.csv)
+> This data is available to download here: [Commissioner_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/comisionado_residente/comisionado_residente.csv)
 
 ```{r, include = TRUE, fig.width=10, fig.height=6}
 data <- read_csv('data/elecciones_generales/comisionado_residente/comisionado_residente.csv')
@@ -85,18 +80,13 @@ data %>%
     scale_y_continuous(labels = comma_format())
 ```
 
-#### Municipality-level data
-
 ```{r, eval=FALSE}
-datatable(data = data, extensions = 'Buttons', 
-          options = list(dom = 'Btp', buttons = c('csv', 'excel', 'pdf')), 
-          filter = 'top', rownames = FALSE, class = 'hover row-border', 
-          colnames = c('Municipality', 'Year', 'Political Party', 'votes'))
+knitr::kable(head(data, n = 10), col.names = c('Municipality', 'Year', 'Political Party', 'votes'))
 ```
 
 ### Mayors Data Available
 
-> This data is available to download pressing the buttons below or to have the most updated version: [Mayor_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/alcalde/alcalde.csv)
+> This data is available to download here: [Mayor_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/alcalde/alcalde.csv)
 
 ```{r, include = TRUE, fig.width=10, fig.height=6}
 data <- read_csv('data/elecciones_generales/alcalde/alcalde.csv')
@@ -118,11 +108,6 @@ data %>%
     scale_y_continuous(labels = comma_format())
 ```
 
-#### Municipality-level data
-
 ```{r, eval=FALSE}
-datatable(data = data, extensions = 'Buttons', 
-          options = list(dom = 'Btp', buttons = c('csv', 'excel', 'pdf')), 
-          filter = 'top', rownames = FALSE, class = 'hover row-border', 
-          colnames = c('Municipality', 'Year', 'Political Party', 'votes'))
+knitr::kable(head(data, n = 10), col.names = c('Municipality', 'Year', 'Political Party', 'votes'))
 ```

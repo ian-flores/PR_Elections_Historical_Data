@@ -16,24 +16,18 @@ I scraped all the historical data from the Puerto Rico's Electoral Commission we
 
 ### Governor Data Available
 
-> This data is available to download pressing the buttons below or to have the most updated version: [Governor\_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/gobernador/gobernador.csv)
+> This data is available to download here: [Governor\_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/gobernador/gobernador.csv)
 
 ![](description_files/figure-markdown_github/unnamed-chunk-1-1.png)
 
-#### Municipality-level data
-
 ### Resident Commissioner Data Available
 
-> This data is available to download pressing the buttons below or to have the most updated version: [Commissioner\_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/comisionado_residente/comisionado_residente.csv)
+> This data is available to download here: [Commissioner\_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/comisionado_residente/comisionado_residente.csv)
 
 ![](description_files/figure-markdown_github/unnamed-chunk-3-1.png)
 
-#### Municipality-level data
-
 ### Mayors Data Available
 
-> This data is available to download pressing the buttons below or to have the most updated version: [Mayor\_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/alcalde/alcalde.csv)
+> This data is available to download here: [Mayor\_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/alcalde/alcalde.csv)
 
 ![](description_files/figure-markdown_github/unnamed-chunk-5-1.png)
-
-#### Municipality-level data
