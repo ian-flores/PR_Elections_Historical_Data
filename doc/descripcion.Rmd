@@ -1,0 +1,128 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+suppressPackageStartupMessages(library(DT))
+suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(forcats))
+suppressPackageStartupMessages(library(scales))
+```
+
+## Contexto
+
+#### Descargue todos los datos catalogados como históricos en la página de la Comisión Estatal de Elecciones de Puerto Rico para hacerlos accesible en un formato que pueda ser combinado con datos del Censo, así como otros indicadores socio-económicos para entender mejor los patrones políticos en Puerto Rico. En el próximo mes estare añadiendo los datos de las elecciones de 2004, 2008, 2012, y 2016 pero con mayor detalle espacial que por municipios. Pude corregir los nombres de los partidos que reconocí, sin embargo a los otros les deje el código asignado por la CEE. Si los conoce, y puede proveer una referencia para los mismos, por favor envieme un correo electronico a: iflores.siaca@gmail.com
+
+> El repositorio de GitHub que contiene todo el código de este proyecto esta disponible aqui: [https://github.com/ian-flores/PR_Elections_Historical_Data](https://github.com/ian-flores/PR_Elections_Historical_Data)
+
+> Advertencia: Los datos contenidos en esta página fueron extraidos de la pagina de la Comisión Estatal de Elecciones. De haber discrepancias, refieranse a la página de la comisión como fuente principal. 
+
+### Datos Disponibles
+
+- Gobernador *(1948 - 2000)*
+- Comisionado Residente *(1932 - 1944) & (1980 - 2000)*
+- Alcaldes *(1976 - 2000)*
+
+### Datos disponibles sobre Gobernador
+
+> Los datos estan disponibles para descarga en los botones en la parte inferior o para tener acceso a la version más actualizada: [Gobernador_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/gobernador/gobernador.csv)
+
+```{r, include = TRUE, fig.width=10, fig.height=6}
+data <- read_csv('data/elecciones_generales/gobernador/gobernador.csv')
+
+ggthemr::ggthemr('fresh')
+
+data %>%
+    group_by(year_data, partido) %>%
+    summarise(votos = sum(votos, na.rm = T)) %>%
+    filter(votos > 75000) %>%
+    mutate(partido = fct_drop(partido)) %>%
+    rename(year = year_data, votes = votos, party = partido) %>%
+    ggplot(aes(x = year, y = votes, colour = fct_reorder2(party, year, votes))) +
+        geom_line(aes(group = party)) +
+    labs(x = 'Año', y = 'Votos', 
+         colour = 'Partido',
+         title = 'Resultados Elección Gobernador',
+         subtitle = 'Datos de 1948-2000',
+         caption = 'Solo se visualizan partidos con mas de 75,000 votos cada año.') +
+    scale_y_continuous(labels = comma_format())
+```
+
+#### Datos a nivel municipal
+
+```{r}
+datatable(data = data, extensions = 'Buttons', 
+          options = list(dom = 'Btp', buttons = c('csv', 'pdf')), 
+          filter = 'top', rownames = FALSE, class = 'hover row-border', 
+          colnames = c('Municipio', 'Año', 'Partido', 'Votos'))
+```
+
+### Datos disponibles sobre Comisionado Residente
+
+> Los datos estan disponibles para descarga en los botones en la parte inferior o para tener acceso a la version más actualizada: [Commisionado_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/comisionado_residente/comisionado_residente.csv)
+
+```{r, include = TRUE, fig.width=10, fig.height=6}
+data <- read_csv('data/elecciones_generales/comisionado_residente/comisionado_residente.csv')
+
+ggthemr::ggthemr('fresh')
+
+data %>%
+    group_by(year_data, partido) %>%
+    summarise(votos = sum(votos, na.rm = T)) %>%
+    filter(year_data > 1979) %>%
+    filter(votos > 75000) %>%
+    mutate(partido = fct_drop(partido)) %>%
+    ggplot(aes(x = year_data, y = votos, colour = fct_reorder2(partido, year_data, votos))) +
+        geom_line(aes(group = partido)) +
+    labs(x = 'Año', y = 'Votos', 
+         colour = 'Partido',
+         title = 'Resultados Elección Comisionado Residente',
+         subtitle = 'Datos de 1980-2000',
+         caption = 'Solo se visualizan partidos con mas de 75,000 votos cada año') +
+    scale_y_continuous(labels = comma_format())
+```
+
+#### Datos a nivel municipal
+
+```{r}
+datatable(data = data, extensions = 'Buttons', 
+          options = list(dom = 'Btp', buttons = c('csv', 'pdf')), 
+          filter = 'top', rownames = FALSE, class = 'hover row-border', 
+          colnames = c('Municipio', 'Año', 'Partido', 'Votos'))
+```
+
+### Datos disponibles sobre Alcaldes
+
+> Los datos estan disponibles para descarga en los botones en la parte inferior o para tener acceso a la version más actualizada: [Alcaldes_CSV](https://github.com/ian-flores/PR_Elections_Historical_Data/blob/master/data/elecciones_generales/alcalde/alcalde.csv)
+
+```{r, include = TRUE, fig.width=10, fig.height=6}
+data <- read_csv('data/elecciones_generales/alcalde/alcalde.csv')
+
+
+data %>%
+    group_by(year_data, partido) %>%
+    summarise(votos = sum(votos, na.rm = T)) %>%
+    filter(votos > 25000) %>%
+    mutate(partido = fct_drop(partido)) %>%
+    rename(year = year_data, votes = votos, party = partido) %>%
+    ggplot(aes(x = year, y = votes, colour = fct_reorder2(party, year, votes))) +
+        geom_line(aes(group = party)) +
+    labs(x = 'Año', y = 'Votos', 
+         colour = 'Partido',
+         title = 'Resultados Elección Alcaldes',
+         subtitle = 'Datos de 1976-2000',
+         caption = 'Solo se visualizan partidos con mas de 25,000 votos cada año') +
+    scale_y_continuous(labels = comma_format())
+```
+
+#### Datos a nivel municipal
+
+```{r}
+datatable(data = data, extensions = 'Buttons', 
+          options = list(dom = 'Btp', buttons = c('csv', 'pdf')), 
+          filter = 'top', rownames = FALSE, class = 'hover row-border', 
+          colnames = c('Municipio', 'Año', 'Partido', 'Votos'))
+```

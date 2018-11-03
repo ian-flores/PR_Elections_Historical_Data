@@ -31,12 +31,13 @@ clean_historic_data <- function(.post, .save_path){
                partido = str_replace(partido, 'P_N_P', 'Partido_Nuevo_Progresista'),
                partido = str_replace(partido, 'P_P_D', 'Partido_Popular_Democrático'),
                partido = str_replace(partido, 'P_R_P', 'Partido_Renovación_Puertorriqueña')) %>% 
-        filter(!is.na(votos)) ->
+        filter(!is.na(votos), !str_detect(municipios, 'Total,Puerto Rico'), !str_detect(partido, "Total_Combinado")) ->
         data
     print(data)
     
     write_csv(data, path = .save_path)
 }
+
 
 cr_post <- 'comisionado_residente'
 clean_historic_data(.post = cr_post)
