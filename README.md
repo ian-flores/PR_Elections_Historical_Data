@@ -16,6 +16,10 @@ This repo contains all the the historical data from the Puerto Rico's Electoral 
     
 - `doc` contains the two blog posts (English and Spanish) that were published in my webpage: www.bayesianpolitik.me 
 
+#### Acknowledgments:
+
+- Sonia Collazo and her family for providing the name of the party labeled `P_P` as `Partido_del_Pueblo`. 
+
 ## Español
 
 Este repositorio tiene todos los datos catalogados como históricos en la página de la Comisión Estatal de Elecciones de Puerto Rico para hacerlos accesible en un formato que pueda ser combinado con datos del Censo, así como otros indicadores socio-económicos para entender mejor los patrones políticos en Puerto Rico. La descarga de los datos y el scraping fue hecho con Python y Beautiful Soup, y la limpieza y estructuracion de los datos fue hecha con R y el tidyverse.
@@ -31,3 +35,7 @@ Este repositorio tiene todos los datos catalogados como históricos en la págin
     - `clean_data` tiene el script de R que limpia y estructura los datos. 
     
 - `doc` contiene los dos blog posts (Español e Ingles) que se publicaron en mi pagina: www.bayesianpolitik.me 
+
+#### Agradecimientos:
+
+- Sonia Collazo y su familia por proveer el nombre del partido con codigo `P_P` como `Partido_del_Pueblo`.

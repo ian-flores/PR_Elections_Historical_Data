@@ -30,7 +30,8 @@ clean_historic_data <- function(.post, .save_path){
         mutate(partido = str_replace(partido, 'P_I_P', 'Partido_Independentista_Puertorriqueño'),
                partido = str_replace(partido, 'P_N_P', 'Partido_Nuevo_Progresista'),
                partido = str_replace(partido, 'P_P_D', 'Partido_Popular_Democrático'),
-               partido = str_replace(partido, 'P_R_P', 'Partido_Renovación_Puertorriqueña')) %>% 
+               partido = str_replace(partido, 'P_R_P', 'Partido_Renovación_Puertorriqueña'),
+               partido = str_replace(partido, 'P_P', 'Partido_del_Pueblo')) %>% 
         filter(!is.na(votos), !str_detect(municipios, 'Total,Puerto Rico'), !str_detect(partido, "Total_Combinado")) ->
         data
     print(data)
